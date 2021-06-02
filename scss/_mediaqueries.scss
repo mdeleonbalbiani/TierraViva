@@ -1,0 +1,212 @@
+
+/*MEDIA QUERIES*/
+
+/*Header*/
+@media only screen and (min-width: 1024px) {
+    /*Desktop*/
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000; } }
+/*FIN Header*/
+
+/*Footer*/
+@media only screen and (min-width: 600px){
+    /*Tablet*/
+    .footer a img{
+        width: 30px;
+        margin: 15px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    /*Desktop*/
+    .footer a img{
+        width: 40px;
+        margin: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 600px){
+    /*Tablet*/
+    .footer__copyright{
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (min-width: 1024px){
+/*Desktop*/
+    .footer__copyright{
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+}
+
+/*FIN Footer*/
+
+
+/*Index*/
+@media only screen and (min-width: 1024px) {
+    .centrar {
+        border-top: 2px solid $verdePrincipal;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .centrar__nosotrosIzq {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center; 
+    }
+    .centrar__nosotrosDer {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center; 
+    }
+    .imagenNosotros {
+        margin: 20px;
+        width: 20%; 
+    } 
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .contenedorNuestrosProductos {
+      margin-top: 100px;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      grid-template: "title title title" 
+        "nuestrosProductosIzq acelga nuestrosProductosDer" 
+        "parrafoConclusion parrafoConclusion parrafoConclusion"; } }
+
+@media only screen and (min-width: 600px) {
+    /*Tablet*/
+    .contenedorNuestrosProductos__Izq {
+        text-align: right; } }
+    
+@media only screen and (min-width: 1024px) {
+    /*Desktop*/
+    .contenedorNuestrosProductos__Izq {
+        text-align: right; } }
+
+@media only screen and (min-width: 600px) {
+    /*Tablet*/
+    .contenedorNuestrosProductos__Der {
+        text-align: left; } }
+    
+@media only screen and (min-width: 1024px) {
+    /*Desktop*/
+    .contenedorNuestrosProductos__Der {
+        text-align: left; } }
+
+
+@media only screen and (min-width: 600px) {
+    /*Tablet*/
+    .contenedorNuestrosProductos__acelga {
+        width: 70%; } }
+    
+@media only screen and (min-width: 1024px) {
+    /*Desktop*/
+    .contenedorNuestrosProductos__acelga {
+        width: 90%; } }
+
+@media only screen and (min-width: 600px) {
+    /*Tablet*/
+    .contenedorNuestrosProductos__parrafoConclusion {
+        font-size: 25px; } }
+    
+@media only screen and (min-width: 1024px) {
+    /*Desktop*/
+    .contenedorNuestrosProductos__parrafoConclusion {
+        font-size: 28px; } }
+          
+/*FIN Index*/
+
+/*Paginas de Frutas y Verduras*/
+@media only screen and (min-width: 600px){
+    /*Tablet*/
+    .rowShop{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+        column-gap: 2rem;
+    }
+}
+@media only screen and (min-width: 1024px){
+    /*Desktop*/
+    .rowShop{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+        column-gap: 2rem;
+    }
+}
+
+/*FIN Paginas de Frutas y Verduras*/
+
+/*Pagina de Ofertas*/
+@media only screen and (min-width: 600px){
+    /*Tablet*/
+    .rowOferta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
+        column-gap: 2rem;
+    }
+}
+@media only screen and (min-width: 1024px){
+    /*Desktop*/
+    .rowOferta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
+        column-gap: 2rem;
+    }
+}
+
+/*FIN Pagina de Ofertas*/
+
+/*Paginas de detalle de Ofertas*/
+@media only screen and (min-width: 600px){
+    /*Tablet*/
+    .descripcion{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 1024px){
+    /*Desktop*/
+    .descripcion{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    /*Tablet*/
+    .descripcion__contenido{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 1024px){
+    /*Desktop*/
+    .descripcion__contenido{
+        font-size: 2rem;
+    }
+}
+
+
+/*FIN Paginas de detalle de Ofertas*/
+
+
+/*FIN MEDIA QUERIES*/

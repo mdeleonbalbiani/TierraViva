@@ -1,0 +1,56 @@
+/*OFERTAS*/
+
+.nuevo{
+    font-size: 1.2rem;
+}
+
+.rowOferta {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.cardOferta{
+    border-radius: 5%;
+    margin: 5%;
+    align-items: center;
+
+    img{
+        margin: 8%;
+    }
+}
+
+.textoOfertas__title{
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+}
+
+.textoOfertas__price{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10%;
+    text-align: center;
+}
+
+.btnOfertaVerDetalle{
+    font-family: 'Nova Slim', cursive;
+    font-size: 1.5rem;
+    color: $verdePrincipal;
+    display: block;
+    border: 1px solid green;
+    background-color: rgb(131, 230, 127);
+    padding: 5%;
+    height: 7vh;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.btnOfertaVerDetalle:hover{
+    background: #1e9700bd;
+    color: #fff !important;
+}
+
+/*FIN OFERTAS*/

@@ -1,0 +1,120 @@
+/*INDEX*/
+
+.presentacion {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center; }
+  
+.presentacion__eslogan {
+    color: #0D6B37;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -18px; }
+
+/*Carousel*/
+.titleCarousel a {
+    text-decoration: none;
+    font-size: 5.3rem;
+    font-family: 'Antonio', sans-serif;
+    color: black;
+    float: left;
+    width: 40%;
+    text-shadow: rgb(88, 86, 86) 0.2em 0.2em 0.2em; }
+
+/*Nosotros*/
+.centrar {
+    border-top: 2px solid $verdePrincipal;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  
+.centrar__nosotrosIzq {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; }
+
+.centrar__nosotrosDer {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; }
+
+.imagenNosotros {
+    margin: 20px;
+    width: 50%; }
+
+
+  
+/*Nuestros Productos*/
+.contenedorNuestrosProductos {
+    margin-top: 100px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template: "title" 
+   "nuestrosProductosIzq" "acelga" "nuestrosProductosDer" 
+   "parrafoConclusion"; }
+  
+
+.contenedorNuestrosProductos__title {
+    width: 100%;
+    border-bottom: 2px solid $verdePrincipal;
+    margin: 20px;
+    grid-area: title; }
+  
+.contenedorNuestrosProductos__Izq {
+    grid-area: nuestrosProductosIzq;
+    text-align: center; }
+  
+
+.contenedorNuestrosProductos__Der {
+        grid-area: nuestrosProductosDer;
+        text-align: center; }
+  
+  
+.contenedorNuestrosProductos__acelga {
+    grid-area: acelga;
+    display: block;
+    width: 50%;
+    margin: auto; }
+  
+  
+.contenedorNuestrosProductos__parrafoConclusion {
+    margin: 20px;
+    grid-area: parrafoConclusion;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px; }
+  
+
+/*Contacto*/
+.contactoTitle{
+    border-bottom: 2px solid $verdePrincipal;
+    margin: 20px;
+}
+
+/*Estilo a los placeholders, botones y textos del contacto*/
+::-webkit-input-placeholder {
+    font-size: 1.5rem;
+}
+::-moz-placeholder {
+font-size: 1.5rem;
+
+}
+:-ms-input-placeholder {
+font-size: 1.5rem;
+}
+
+.contactoBoton{
+    font-size: 1.5rem;
+}
+.contactoBoton--seleccioneDepartamento{
+    @extend .contactoBoton;
+    color: rgb(95, 94, 94);
+}
+
+
+/*FIN INDEX*/
+

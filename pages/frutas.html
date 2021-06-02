@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <!-- Linkeo de fuentes -->    
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+           <!--  Linkeo de pagina de estilos -->    
+        <link rel="stylesheet" href="../css/estilo.css">
+    <title>Tierra Viva - Frutas</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-primary" style="background-color:#305c30;" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html#home">
+                  <img src="../multimedia/logo.png" alt="logo corporativo" width="60%">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item itemMenu">
+                    <a class="nav-link" aria-current="page" href="../index.html#home">Home</a>
+                  </li>
+                  <li class="nav-item itemMenu">
+                    <a class="nav-link" href="../index.html#nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item itemMenu">
+                    <a class="nav-link" href="../index.html#nuestrosProductos">Nuestros productos</a>
+                  </li>
+                  <li class="nav-item dropdown itemMenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tienda
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="frutas.html">Frutas</a></li>
+                      <li><a class="dropdown-item" href="verduras.html">Verduras</a></li>
+                      <li><a class="dropdown-item" href="ofertas.html">Ofertas</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="presentacionShop">
+        <h1 class="presentacionShop__h1">Tienda Online</h1>
+    </section>
+
+
+    <div class="container contenedor">
+
+        <section class="categoryShop">
+            <h2 class="categoryShop__title">Frutas</h2>
+            <ul class="categoryShop__menu">
+                <li><a href="verduras.html">Verduras</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+            </ul>
+        </section>
+
+        <div class="rowShop">
+
+            <div class="productCard">
+                <img src="../multimedia/frutillas.png" alt="frutillas" class="scale">
+                <h3>Frutillas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="100" min="100" class="cantidadInput"/>
+                    gramos
+                </div>
+                <p><strong>$100</strong> / 100grs</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/naranjas.png" alt="naranjas" class="scale">
+                <h3>Naranjas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$75</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/uvas moradas.png" alt="uvas moradas" class="scale">
+                <h3>Uvas moradas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="0.5" min="0.5" class="cantidadInput"/>
+                    kgs
+                </div>
+                <p><strong>$80</strong> / ½ kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+        </div>
+        <div class="rowShop">
+            <div class="productCard">
+                <img src="../multimedia/uvas blancas.png" alt="uvas blancas" class="scale">
+                <h3>Uvas blancas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="100" min="100" class="cantidadInput"/>
+                    gramos
+                </div>
+                <p><strong>$100</strong> /100grs</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/manda.png" alt="mandarina" class="scale">
+                <h3>Mandarinas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$45</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/manzana roja.png" alt="manzana roja" class="scale">
+                <h3>Manzanas rojas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$73</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+        </div>
+
+        <div class="rowShop">
+
+            <div class="productCard">
+                <img src="../multimedia/manzana verde.png" alt="manzana verde" class="scale">
+                <h3>Manzanas verdes</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$88</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/higos.png" alt="higos" class="scale">
+                <h3>Higos</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$120</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/kiwi.png" alt="kiwi" class="scale">
+                <h3>Kiwis</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    unidad
+                </div>
+                <p><strong>$30</strong> / unidad</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            </div>
+
+            <div class="rowShop">
+
+            <div class="productCard">
+                <img src="../multimedia/banana.png" alt="banana" class="scale">
+                <h3>Bananas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$48</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/anana.png" alt="anana" class="scale">
+                <h3>Anana</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    unidad
+                </div>
+                <p><strong>$115</strong> / unidad</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/durazno.png" alt="durazno" class="scale">
+                <h3>Duraznos</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$69</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            </div>
+
+            <div class="rowShop">
+
+            <div class="productCard">
+                <img src="../multimedia/limon.png" alt="limon" class="scale">
+                <h3>Limones</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$74</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/pera.png" alt="pera" class="scale">
+                <h3>Peras</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    kg
+                </div>
+                <p><strong>$82</strong> / kg</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/moras.png" alt="mora" class="scale">
+                <h3>Moras</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="100" min="100" class="cantidadInput"/>
+                    gramos
+                </div>
+                <p><strong>$136</strong> / 100grs</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            </div>
+
+            <div class="rowShop">
+
+            <div class="productCard">
+                <img src="../multimedia/cereza.png" alt="cereza" class="scale">
+                <h3>Cerezas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="100" min="100" class="cantidadInput"/>
+                    gramos
+                </div>
+                <p><strong>$150</strong> / 100grs</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/granada.png" alt="granada" class="scale">
+                <h3>Granadas</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="1" min="1" class="cantidadInput"/>
+                    unidad
+                </div>
+                <p><strong>$32</strong> / unidad</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            <div class="productCard">
+                <img src="../multimedia/arandano.png" alt="arandano" class="scale">
+                <h3>Arandanos</h3>
+                <div class="productoCantidad">
+                    Cantidad:
+                    <input type="number" name="cantidad" value="100" min="100" class="cantidadInput"/>
+                    gramos
+                </div>
+                <p><strong>$125</strong> / 100grs</p>
+                <input type="button" value="Añadir al carrito" class="btnAdd">
+            </div>
+
+            </div>
+
+        
+
+    </div>
+
+
+
+
+    <footer class="footer container-fluid">
+        <div>
+            <a target="_blank" href="https://www.facebook.com/">
+                <img src="../multimedia/facebook.png" alt="Facebook">
+            </a>
+            <a target="_blank" href="https://www.instagram.com">
+                <img src="../multimedia/instagram.png" alt="Instagram">
+            </a>
+            <a target="_blank" href="https://twitter.com/">
+                <img src="../multimedia/twitter.png" alt="Twitter">
+            </a>
+            <a target="_blank" href="https://web.whatsapp.com">
+                <img src="../multimedia/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+        
+        <p class="footer__copyright">Uruguay, 2021</p>
+        <p class="footer__madeBy">Página web creada por <a href="https://www.linkedin.com/in/deleonmartina/" target="_blank">Martina De León</a></p>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+</body>
+</html>

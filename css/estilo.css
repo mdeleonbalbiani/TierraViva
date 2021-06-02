@@ -1,0 +1,613 @@
+/*ESTRUCTURA*/
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: black; }
+
+/*Mobile - Tablet*/
+header {
+  background-color: #305c30; }
+
+.contenedor {
+  background: linear-gradient(to bottom, #1d1d1d3b, rgba(0, 0, 0, 0.541));
+  margin-bottom: 3%;
+  margin-top: 3%; }
+
+h1, .pseudoh1 {
+  color: #305c30;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Antonio', sans-serif;
+  text-transform: uppercase; }
+
+h2 {
+  color: #366936;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: 'Antonio', sans-serif; }
+
+h3 {
+  color: #545852;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-family: 'Antonio', sans-serif; }
+
+p {
+  color: #5f645e;
+  font-size: 20px;
+  letter-spacing: 0px; }
+
+/*Menu*/
+.navbar-brand {
+  margin-left: 10%; }
+
+nav ul {
+  font-family: 'Nova Slim', cursive;
+  font-size: 18px; }
+
+.itemMenu a {
+  color: black;
+  font-weight: bold; }
+
+.itemMenu a:hover {
+  background-color: #c1c1c14d;
+  color: #313030; }
+
+.itemMenu ul {
+  background-color: #305c30f1;
+  font-size: 1.8rem; }
+
+.btnHamburguesa {
+  font-size: xx-large; }
+
+/*Footer*/
+footer {
+  background-color: #4d4b4b; }
+  footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.footer a img {
+  width: 20px;
+  margin: 10px; }
+
+.footer__copyright {
+  color: #000;
+  font-weight: bold;
+  text-align: right;
+  font-size: 15px;
+  padding-bottom: 2%;
+  padding-right: 3%; }
+
+.footer__madeBy {
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Nova Slim', cursive; }
+  .footer__madeBy a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0f0b24;
+    text-decoration: none; }
+
+/*FIN ESTRUCTURA*/
+/*INDEX*/
+.presentacion {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center; }
+
+.presentacion__eslogan {
+  color: #0D6B37;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  margin-top: -18px; }
+
+/*Carousel*/
+.titleCarousel a {
+  text-decoration: none;
+  font-size: 5.3rem;
+  font-family: 'Antonio', sans-serif;
+  color: black;
+  float: left;
+  width: 40%;
+  text-shadow: #585656 0.2em 0.2em 0.2em; }
+
+/*Nosotros*/
+.centrar {
+  border-top: 2px solid #305c30;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.centrar__nosotrosIzq {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; }
+
+.centrar__nosotrosDer {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; }
+
+.imagenNosotros {
+  margin: 20px;
+  width: 50%; }
+
+/*Nuestros Productos*/
+.contenedorNuestrosProductos {
+  margin-top: 100px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template: "title"  "nuestrosProductosIzq" "acelga" "nuestrosProductosDer"  "parrafoConclusion"; }
+
+.contenedorNuestrosProductos__title {
+  width: 100%;
+  border-bottom: 2px solid #305c30;
+  margin: 20px;
+  grid-area: title; }
+
+.contenedorNuestrosProductos__Izq {
+  grid-area: nuestrosProductosIzq;
+  text-align: center; }
+
+.contenedorNuestrosProductos__Der {
+  grid-area: nuestrosProductosDer;
+  text-align: center; }
+
+.contenedorNuestrosProductos__acelga {
+  grid-area: acelga;
+  display: block;
+  width: 50%;
+  margin: auto; }
+
+.contenedorNuestrosProductos__parrafoConclusion {
+  margin: 20px;
+  grid-area: parrafoConclusion;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px; }
+
+/*Contacto*/
+.contactoTitle {
+  border-bottom: 2px solid #305c30;
+  margin: 20px; }
+
+/*Estilo a los placeholders, botones y textos del contacto*/
+::-webkit-input-placeholder {
+  font-size: 1.5rem; }
+
+::-moz-placeholder {
+  font-size: 1.5rem; }
+
+:-ms-input-placeholder {
+  font-size: 1.5rem; }
+
+.contactoBoton, .contactoBoton--seleccioneDepartamento {
+  font-size: 1.5rem; }
+
+.contactoBoton--seleccioneDepartamento {
+  color: #5f5e5e; }
+
+/*FIN INDEX*/
+/*FRUTAS Y VERDURAS*/
+.presentacionShop {
+  background: linear-gradient(0deg, rgba(63, 63, 62, 0.6), rgba(54, 54, 53, 0.4)), url(../multimedia/shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.presentacionShop__h1 {
+  color: white;
+  padding: 2%;
+  border: 1px solid white; }
+
+.categoryShop__title {
+  text-align: center;
+  font-size: 35px; }
+
+.categoryShop__menu {
+  margin-bottom: 2%;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center; }
+  .categoryShop__menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Nova Slim', cursive; }
+  .categoryShop__menu li {
+    list-style: none; }
+
+.rowShop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  column-gap: 2rem; }
+
+.productCard {
+  width: 95%;
+  height: 65vh;
+  background: linear-gradient(145deg, #ffffff, #c4c6c9);
+  border-radius: 10%;
+  box-shadow: 2px 2px 10px #d1d2d3, -2px -2px 10px #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  margin-bottom: 8%; }
+  .productCard div {
+    text-align: center;
+    margin: 2%; }
+
+.productoCantidad {
+  font-size: 1.5rem; }
+
+.cantidadInput {
+  text-align: center;
+  width: 30%;
+  font-size: 1.5rem; }
+
+.btnAdd {
+  display: block;
+  width: 12vw;
+  height: 6vh;
+  margin: 2%;
+  font-size: 1.3rem;
+  transition: all .5s ease;
+  position: relative; }
+
+.btnAdd:hover {
+  background: #1e9700bd;
+  color: #fff !important; }
+
+.scale {
+  -webkit-transition: .5s linear;
+  transition: 1s linear; }
+
+.scale:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+/*FIN FRUTAS Y VERDURAS*/
+/*OFERTAS*/
+.nuevo {
+  font-size: 1.2rem; }
+
+.rowOferta {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.cardOferta {
+  border-radius: 5%;
+  margin: 5%;
+  align-items: center; }
+  .cardOferta img {
+    margin: 8%; }
+
+.textoOfertas__title {
+  margin-top: 8%;
+  width: 100%;
+  text-align: center; }
+
+.textoOfertas__price {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10%;
+  text-align: center; }
+
+.btnOfertaVerDetalle {
+  font-family: 'Nova Slim', cursive;
+  font-size: 1.5rem;
+  color: #305c30;
+  display: block;
+  border: 1px solid green;
+  background-color: #83e67f;
+  padding: 5%;
+  height: 7vh;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; }
+
+.btnOfertaVerDetalle:hover {
+  background: #1e9700bd;
+  color: #fff !important; }
+
+/*FIN OFERTAS*/
+/*PAGINAS DESCRIPCION DE CADA OFERTA*/
+.backOfertas {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Nova Slim', cursive; }
+
+.descripcion {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.descripcion__imgOferta {
+  width: 80%; }
+
+.descripcion__contenido, .descripcion__contenido--below {
+  font-size: 2rem;
+  padding: 2%;
+  text-align: center; }
+
+.descripcion__contenido--below {
+  margin-top: 5%;
+  font-weight: bold; }
+
+.descripcion__downArrow {
+  display: block;
+  margin: auto; }
+
+.centrarProductos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 3%; }
+
+.centrarProductos_detalladoProductos {
+  display: flex;
+  align-items: center; }
+  .centrarProductos_detalladoProductos p {
+    padding: 2%;
+    font-weight: bold; }
+
+.priceDetallado {
+  text-align: center;
+  font-size: 3.5rem;
+  border: 1px solid white;
+  color: white;
+  padding: 2%;
+  margin: 2%; }
+
+.btnDetallado {
+  display: block;
+  font-size: 2rem;
+  font-family: 'Nova Slim', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer; }
+
+.btnAnimationDetallado {
+  color: #305c30;
+  font-weight: bold;
+  transition: all 0.5s;
+  position: relative; }
+
+.btnAnimationDetallado::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(160, 231, 131, 0.178);
+  transition: all 0.3s; }
+
+.btnAnimationDetallado:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5); }
+
+.btnAnimationDetallado::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid #305c30;
+  transform: scale(1.2, 1.2); }
+
+.btnAnimationDetallado:hover::after {
+  opacity: 1;
+  transform: scale(1, 1); }
+
+.volverArriba {
+  text-align: center;
+  margin-top: 10%; }
+
+/*FIN PAGINAS DESCRIPCION DE CADA OFERTA*/
+/*MEDIA QUERIES*/
+/*Header*/
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; } }
+
+/*FIN Header*/
+/*Footer*/
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .footer a img {
+    width: 30px;
+    margin: 15px; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .footer a img {
+    width: 40px;
+    margin: 20px; } }
+
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .footer__copyright {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .footer__copyright {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px; } }
+
+/*FIN Footer*/
+/*Index*/
+@media only screen and (min-width: 1024px) {
+  .centrar {
+    border-top: 2px solid #305c30;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .centrar__nosotrosIzq {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center; }
+  .centrar__nosotrosDer {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center; }
+  .imagenNosotros {
+    margin: 20px;
+    width: 20%; } }
+
+@media only screen and (min-width: 1024px) {
+  .contenedorNuestrosProductos {
+    margin-top: 100px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template: "title title title"  "nuestrosProductosIzq acelga nuestrosProductosDer"  "parrafoConclusion parrafoConclusion parrafoConclusion"; } }
+
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .contenedorNuestrosProductos__Izq {
+    text-align: right; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .contenedorNuestrosProductos__Izq {
+    text-align: right; } }
+
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .contenedorNuestrosProductos__Der {
+    text-align: left; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .contenedorNuestrosProductos__Der {
+    text-align: left; } }
+
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .contenedorNuestrosProductos__acelga {
+    width: 70%; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .contenedorNuestrosProductos__acelga {
+    width: 90%; } }
+
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .contenedorNuestrosProductos__parrafoConclusion {
+    font-size: 25px; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .contenedorNuestrosProductos__parrafoConclusion {
+    font-size: 28px; } }
+
+/*FIN Index*/
+/*Paginas de Frutas y Verduras*/
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .rowShop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    column-gap: 2rem; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .rowShop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    column-gap: 2rem; } }
+
+/*FIN Paginas de Frutas y Verduras*/
+/*Pagina de Ofertas*/
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .rowOferta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    column-gap: 2rem; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .rowOferta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    column-gap: 2rem; } }
+
+/*FIN Pagina de Ofertas*/
+/*Paginas de detalle de Ofertas*/
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .descripcion {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .descripcion {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; } }
+
+@media only screen and (min-width: 600px) {
+  /*Tablet*/
+  .descripcion__contenido, .descripcion__contenido--below {
+    font-size: 2rem; } }
+
+@media only screen and (min-width: 1024px) {
+  /*Desktop*/
+  .descripcion__contenido, .descripcion__contenido--below {
+    font-size: 2rem; } }
+
+/*FIN Paginas de detalle de Ofertas*/
+/*FIN MEDIA QUERIES*/

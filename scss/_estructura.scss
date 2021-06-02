@@ -1,0 +1,122 @@
+/*ESTRUCTURA*/
+$verdePrincipal: #305c30 ;
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black; }
+  
+/*Mobile - Tablet*/
+header {
+    background-color: $verdePrincipal; }
+
+
+.contenedor {
+background: linear-gradient(to bottom, #1d1d1d3b, rgba(0, 0, 0, 0.541));
+margin-bottom: 3%;
+margin-top: 3%; }
+
+h1 {
+    color: $verdePrincipal;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase; }
+  
+h2 {
+color: #366936;
+font-size: 30px;
+letter-spacing: 3px;
+font-family: 'Antonio', sans-serif; }
+
+h3 {
+color: #545852;
+font-size: 25px;
+letter-spacing: 3px;
+font-family: 'Antonio', sans-serif; }
+
+p {
+color: #5f645e;
+font-size: 20px;
+letter-spacing: 0px; }
+
+.pseudoh1 {
+    @extend h1; }
+  
+
+/*Menu*/
+.navbar-brand {
+    margin-left: 10%; }
+    
+nav ul {
+font-family: 'Nova Slim', cursive;
+font-size: 18px; }
+
+.itemMenu a {
+color: black;
+font-weight: bold; }
+
+.itemMenu a:hover {
+background-color: #c1c1c14d;
+color: #313030; }
+
+.itemMenu ul {
+background-color: #305c30f1; 
+font-size: 1.8rem;
+}
+
+.btnHamburguesa {
+font-size: xx-large; }
+
+
+/*Footer*/
+
+footer{
+    background-color: rgb(77, 75, 75);
+
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+        
+}
+
+
+.footer a img{
+    width: 20px;
+    margin: 10px;
+}
+    
+
+.footer__copyright{
+    color: #000;
+    font-weight: bold;
+    text-align: right;
+    font-size: 15px;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+    
+
+
+.footer__madeBy{
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Nova Slim', cursive;
+
+    a{
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(15, 11, 36);
+        text-decoration: none;
+    }
+}
+
+
+/*FIN ESTRUCTURA*/

@@ -1,0 +1,122 @@
+/*PAGINAS DESCRIPCION DE CADA OFERTA*/
+
+
+.backOfertas{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Nova Slim', cursive;
+}
+
+.descripcion{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion__imgOferta{
+    width: 80%;
+}
+
+.descripcion__contenido{
+    font-size: 2rem;
+    padding: 2%;
+    text-align: center;
+}
+
+.descripcion__contenido--below{
+    @extend .descripcion__contenido;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.descripcion__downArrow{
+    display:block;
+    margin:auto;
+}
+
+.centrarProductos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 3%;
+}
+
+.centrarProductos_detalladoProductos{
+    display: flex;
+    align-items: center;
+
+    p{
+        padding: 2%;
+        font-weight: bold;
+    }
+}
+
+.priceDetallado{
+    text-align: center;
+    font-size: 3.5rem;
+    border: 1px solid white;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+}
+.btnDetallado{
+    display: block;
+    font-size: 2rem;
+    font-family: 'Nova Slim', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}
+.btnAnimationDetallado {
+	color: #305c30;
+    font-weight: bold;
+	transition: all 0.5s;
+	position: relative;
+}
+.btnAnimationDetallado::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(160, 231, 131, 0.178);
+	transition: all 0.3s;
+}
+.btnAnimationDetallado:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btnAnimationDetallado::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid $verdePrincipal;
+	transform: scale(1.2,1.2);
+}
+.btnAnimationDetallado:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
+
+.volverArriba{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/*FIN PAGINAS DESCRIPCION DE CADA OFERTA*/
