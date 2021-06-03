@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*ESTRUCTURA*/
 html {
   font-size: 62.5%; }
@@ -437,6 +438,11 @@ footer {
   margin-top: 10%; }
 
 /*FIN PAGINAS DESCRIPCION DE CADA OFERTA*/
+/*Página 404*/
+.backgroundColor404 {
+  color: white; }
+
+/*FIN Página 404*/
 /*MEDIA QUERIES*/
 /*Header*/
 @media only screen and (min-width: 1024px) {
