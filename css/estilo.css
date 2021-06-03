@@ -442,13 +442,33 @@ footer {
 .backgroundColor404 {
   background-color: white; }
 
-.mainPage404 img {
-  display: block;
-  margin: auto; }
+.mainPage404 {
+  display: flex; }
+  .mainPage404 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .mainPage404 div p {
+      text-align: center;
+      color: #000;
+      font-size: 3rem;
+      font-weight: bold; }
 
-.mainPage404 p {
-  color: #000;
-  font-size: 3rem; }
+.boton404 {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #305c30;
+  border-radius: 6px;
+  border: 2px solid #305c30; }
+
+.boton404:hover {
+  color: #305c30;
+  background-color: #ffffff; }
 
 /*FIN Página 404*/
 /*MEDIA QUERIES*/
