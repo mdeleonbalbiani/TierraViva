@@ -14,7 +14,7 @@
 /*Carousel*/
 .titleCarousel a {
     text-decoration: none;
-    font-size: 5.3rem;
+    font-size: $tamanioFuentePrincipal*2.65;
     font-family: 'Antonio', sans-serif;
     color: black;
     float: left;
@@ -86,7 +86,7 @@
     grid-area: parrafoConclusion;
     font-weight: bold;
     text-align: center;
-    font-size: 18px; }
+    font-size: $tamanioFuentePrincipal - 0.2; }
   
 
 /*Contacto*/
@@ -97,18 +97,18 @@
 
 /*Estilo a los placeholders, botones y textos del contacto*/
 ::-webkit-input-placeholder {
-    font-size: 1.5rem;
+    font-size: $tamanioFuentePrincipal*0.75;
 }
 ::-moz-placeholder {
-font-size: 1.5rem;
+font-size: $tamanioFuentePrincipal*0.75;
 
 }
 :-ms-input-placeholder {
-font-size: 1.5rem;
+font-size: $tamanioFuentePrincipal*0.75;
 }
 
 .contactoBoton{
-    font-size: 1.5rem;
+    font-size: $tamanioFuentePrincipal*0.75;
 }
 .contactoBoton--seleccioneDepartamento{
     @extend .contactoBoton;

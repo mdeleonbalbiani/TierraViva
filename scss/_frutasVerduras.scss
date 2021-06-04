@@ -18,7 +18,7 @@
   
 .categoryShop__title {
     text-align: center;
-    font-size: 35px; }
+    font-size: $tamanioFuentePrincipal+1.5; }
   
 .categoryShop__menu {
     margin-bottom: 2%;
@@ -31,7 +31,7 @@
         text-decoration: none;
         padding: 10px 50px;
         display: block;
-        font-size: 20px;
+        font-size: $tamanioFuentePrincipal;
         font-family: 'Nova Slim', cursive; 
       }
       li {
@@ -43,8 +43,8 @@
 .rowShop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 1rem;
-    column-gap: 2rem; 
+    row-gap: $tamanioFuentePrincipal/2;
+    column-gap: $tamanioFuentePrincipal; 
 }
     
 
@@ -69,13 +69,13 @@
 }
 
 .productoCantidad{
-    font-size: 1.5rem;
+    font-size: $tamanioFuentePrincipal - 0.5;
 }
   
 .cantidadInput {
     text-align: center;
     width: 30%; 
-    font-size: 1.5rem;
+    font-size: $tamanioFuentePrincipal - 0.5;
 }
   
 .btnAdd {
@@ -83,7 +83,7 @@
     width: 12vw;
     height: 6vh;
     margin: 2%;
-    font-size: 1.3rem;
+    font-size: $tamanioFuentePrincipal*0.65;
     transition: all .5s ease;
     position: relative; 
 }

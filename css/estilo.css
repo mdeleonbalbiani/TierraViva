@@ -17,7 +17,7 @@ header {
 
 h1, .pseudoh1 {
   color: #305c30;
-  font-size: 40px;
+  font-size: 4rem;
   letter-spacing: 2px;
   font-weight: bold;
   text-align: center;
@@ -26,19 +26,19 @@ h1, .pseudoh1 {
 
 h2 {
   color: #366936;
-  font-size: 30px;
+  font-size: 3rem;
   letter-spacing: 3px;
   font-family: 'Antonio', sans-serif; }
 
 h3 {
   color: #545852;
-  font-size: 25px;
+  font-size: 2.5rem;
   letter-spacing: 3px;
   font-family: 'Antonio', sans-serif; }
 
 p {
   color: #5f645e;
-  font-size: 20px;
+  font-size: 2rem;
   letter-spacing: 0px; }
 
 /*Menu*/
@@ -47,7 +47,7 @@ p {
 
 nav ul {
   font-family: 'Nova Slim', cursive;
-  font-size: 18px; }
+  font-size: 1.8rem; }
 
 .itemMenu a {
   color: black;
@@ -80,17 +80,17 @@ footer {
   color: #000;
   font-weight: bold;
   text-align: right;
-  font-size: 15px;
+  font-size: 1.5rem;
   padding-bottom: 2%;
   padding-right: 3%; }
 
 .footer__madeBy {
   color: #000;
   text-align: center;
-  font-size: 10px;
+  font-size: 1rem;
   font-family: 'Nova Slim', cursive; }
   .footer__madeBy a {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #0f0b24;
     text-decoration: none; }
@@ -175,7 +175,7 @@ footer {
   grid-area: parrafoConclusion;
   font-weight: bold;
   text-align: center;
-  font-size: 18px; }
+  font-size: 1.8rem; }
 
 /*Contacto*/
 .contactoTitle {
@@ -218,7 +218,7 @@ footer {
 
 .categoryShop__title {
   text-align: center;
-  font-size: 35px; }
+  font-size: 3.5rem; }
 
 .categoryShop__menu {
   margin-bottom: 2%;
@@ -230,7 +230,7 @@ footer {
     text-decoration: none;
     padding: 10px 50px;
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Nova Slim', cursive; }
   .categoryShop__menu li {
     list-style: none; }
@@ -308,7 +308,7 @@ footer {
   text-align: center; }
 
 .textoOfertas__price {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 10%;
   text-align: center; }
@@ -460,7 +460,6 @@ footer {
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
-  font-size: 20px;
   color: #ffffff;
   background-color: #305c30;
   border-radius: 6px;
@@ -497,14 +496,14 @@ footer {
 @media only screen and (min-width: 600px) {
   /*Tablet*/
   .footer__copyright {
-    font-size: 20px;
+    font-size: 2rem;
     padding-bottom: 10px;
     padding-right: 20px; } }
 
 @media only screen and (min-width: 1024px) {
   /*Desktop*/
   .footer__copyright {
-    font-size: 20px;
+    font-size: 2rem;
     padding-bottom: 10px;
     padding-right: 20px; } }
 
@@ -572,12 +571,12 @@ footer {
 @media only screen and (min-width: 600px) {
   /*Tablet*/
   .contenedorNuestrosProductos__parrafoConclusion {
-    font-size: 25px; } }
+    font-size: 2.5rem; } }
 
 @media only screen and (min-width: 1024px) {
   /*Desktop*/
   .contenedorNuestrosProductos__parrafoConclusion {
-    font-size: 28px; } }
+    font-size: 2.8rem; } }
 
 /*FIN Index*/
 /*Paginas de Frutas y Verduras*/
