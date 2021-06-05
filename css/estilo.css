@@ -65,7 +65,7 @@ nav ul {
 
 /*Footer*/
 .footer {
-  background: linear-gradient(rgba(141, 137, 137, 0.7), rgba(143, 141, 141, 0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+  background: linear-gradient(rgba(141, 137, 137, 0.7), rgba(143, 141, 141, 0.7));
   background-size: cover; }
 
 .first {
