@@ -1,32 +1,31 @@
 /*INDEX*/
 
-.presentacion {
+.presentacion{
+    margin-top: 3%;
+    margin-bottom: 3%;
     display: grid;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-align: center; 
     grid-template: "hoja tituloPrincipal"
-                    "hoja eslogan";
+    "hoja eslogan";
 }
-  
+
+.presentacion__hoja{
+    grid-area: hoja;
+    justify-self: end;
+}
+
 .presentacion__tituloPrincipal{
     grid-area: tituloPrincipal;
     justify-self: start;
 }
 
-.presentacion__eslogan {
+.presentacion__eslogan{
     color: #42a432;
     font-family: 'Dancing Script', cursive;
     margin-top: -18px; 
     margin-left: 150px;
     grid-area: eslogan;
-    justify-self: start;
 }
 
-.presentacion__hojaIzq{
-    grid-area: hoja;
-    justify-self: end;
-}
 
 /*Carousel*/
 .navbar-expand-lg .navbar-nav .nav-link {
