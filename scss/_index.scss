@@ -1,21 +1,42 @@
 /*INDEX*/
 
 .presentacion {
+    display: grid;
     margin-bottom: 30px;
     margin-top: 30px;
-    text-align: center; }
+    text-align: center; 
+    grid-template: "hoja tituloPrincipal"
+                    "hoja eslogan";
+}
   
+.presentacion__tituloPrincipal{
+    grid-area: tituloPrincipal;
+    justify-self: start;
+}
+
 .presentacion__eslogan {
-    color: #0D6B37;
-    text-align: center;
+    color: #42a432;
     font-family: 'Dancing Script', cursive;
-    margin-top: -18px; }
+    margin-top: -18px; 
+    margin-left: 150px;
+    grid-area: eslogan;
+    justify-self: start;
+}
+
+.presentacion__hojaIzq{
+    grid-area: hoja;
+    justify-self: end;
+}
 
 /*Carousel*/
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: $tamanioFuentePrincipal+1;
+}
+
 .titleCarousel a {
     text-decoration: none;
     font-size: $tamanioFuentePrincipal*2.65;
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: black;
     float: left;
     width: 40%;

@@ -1,5 +1,5 @@
 /*ESTRUCTURA*/
-$verdePrincipal: #305c30 ;
+$verdePrincipal: #006400 ;
 $tamanioFuentePrincipal: 2rem ;
 
 html{
@@ -11,7 +11,7 @@ body {
   
 /*Mobile - Tablet*/
 header {
-    background-color: $verdePrincipal; }
+    background-color: #454B35; }
 
 
 .contenedor {
@@ -54,19 +54,20 @@ letter-spacing: 0px; }
     margin-left: 10%; }
     
 nav ul {
-font-family: 'Nova Slim', cursive;
-font-size: $tamanioFuentePrincipal*0.9; }
+    font-family: 'Kurale', serif;
+    font-size: $tamanioFuentePrincipal*0.9; 
+}
 
 .itemMenu a {
-color: black;
-font-weight: bold; }
+color: white;
+}
 
 .itemMenu a:hover {
 background-color: #c1c1c14d;
 color: #313030; }
 
 .itemMenu ul {
-background-color: #305c30f1; 
+background-color: #004d00d3; 
 font-size: $tamanioFuentePrincipal*0.9;
 }
 
@@ -76,48 +77,171 @@ font-size: xx-large; }
 
 /*Footer*/
 
-footer{
-    background-color: rgb(77, 75, 75);
+.footer {
+    background: linear-gradient(rgba(141, 137, 137, 0.7),rgba(143, 141, 141, 0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background-size: cover;
+    
+}
 
-    div{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+.first {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+}
+
+    .first h4 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: #fff;
+        padding-bottom: 0.5em;
     }
-        
+
+        .first h4::after {
+            content: '';
+            background: #66c83d;
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+    .first p {
+        font-size: 14px;
+    }
+
+.second {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
-
-.footer a img{
-    width: 20px;
-    margin: 10px;
+.second2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
-    
 
-.footer__copyright{
-    color: #000;
+.second h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+    .second h4::after {
+        content: '';
+        background: #66c83d;
+        width: 20%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
+
+
+.second li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.second a, .second2 a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    letter-spacing: 3px;
     font-weight: bold;
-    text-align: right;
-    font-size: $tamanioFuentePrincipal - 0.5;
-    padding-bottom: 2%;
-    padding-right: 3%;
+    font-size: 14px;
+    transition: 0.2s;
 }
-    
 
+    .second a:hover, .second2 a:hover {
+        color: #fff;
+        transition: 0.2s;
+        text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        text-decoration: none
+
+    }
+
+
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+
+    .third h4 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: #fff;
+        padding-bottom: 0.5em;
+    }
+
+
+        .third h4::after {
+            content: '';
+            background: #66c83d;
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 80%;
+        }
+
+
+
+    .third li {
+        list-style: none;
+        padding-bottom: 15px;
+    }
+
+
+    .third a {
+        color: rgb(206, 206, 206);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.2s;
+    }
+
+
+        .third a:hover {
+            color: #fff;
+            transition: 0.2s;
+            text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        }
 
 .footer__madeBy{
     color: #000;
-    text-align: center;
-    font-size: $tamanioFuentePrincipal/2;
+    text-align: right;
+    font-size: 1.2rem;
     font-family: 'Nova Slim', cursive;
+    margin-top: -40px;
 
     a{
-        font-size: $tamanioFuentePrincipal *0.6;
+        font-size: 1.2rem;
         font-weight: bold;
         color: rgb(15, 11, 36);
         text-decoration: none;
     }
 }
-
 
 /*FIN ESTRUCTURA*/

@@ -11,37 +11,40 @@
 /*FIN Header*/
 
 /*Footer*/
-@media only screen and (min-width: 600px){
-    /*Tablet*/
-    .footer a img{
-        width: 30px;
-        margin: 15px;
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;
     }
-}
-@media only screen and (min-width: 1024px){
-    /*Desktop*/
-    .footer a img{
-        width: 40px;
-        margin: 20px;
-    }
+
+        .first h4::after {
+            left: 40%;
+        }
 }
 
+@media screen and (max-width:1000px) {
+    .third {
+        text-align: center;
+    }
 
-@media only screen and (min-width: 600px){
-    /*Tablet*/
-    .footer__copyright{
-        font-size: $tamanioFuentePrincipal;
-        padding-bottom: 10px;
-        padding-right: 20px;
-    }
+        .third h4::after {
+            left: 40% !important;
+        }
 }
-@media only screen and (min-width: 1024px){
-/*Desktop*/
-    .footer__copyright{
-        font-size: $tamanioFuentePrincipal;
-        padding-bottom: 10px;
-        padding-right: 20px;
-    }
+
+.margin {
+    margin-left: 20px;
+}
+
+.line {
+    height:2px;
+    background-color:rgb(206,206,206);
+    width:100%;
+}
+
+.container h1{
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 
 /*FIN Footer*/
