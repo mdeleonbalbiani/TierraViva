@@ -205,7 +205,8 @@ nav ul {
   margin-top: 3%;
   margin-bottom: 3%;
   display: grid;
-  grid-template: "hoja tituloPrincipal" "hoja eslogan"; }
+  grid-template: "hoja tituloPrincipal"
+ "hoja eslogan"; }
 
 .presentacion__hoja {
   grid-area: hoja;
@@ -265,7 +266,9 @@ nav ul {
   display: grid;
   align-items: center;
   justify-items: center;
-  grid-template: "title"  "nuestrosProductosIzq" "acelga" "nuestrosProductosDer"  "parrafoConclusion"; }
+  grid-template: "title" 
+ "nuestrosProductosIzq" "acelga" "nuestrosProductosDer" 
+ "parrafoConclusion"; }
 
 .contenedorNuestrosProductos__title {
   width: 100%;
@@ -611,7 +614,7 @@ nav ul {
     left: 40% !important; } }
 
 .marginSocial {
-  margin-left: 20px; }
+  margin-left: 25px; }
 
 .line {
   height: 2px;
@@ -647,7 +650,9 @@ nav ul {
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template: "title title title"  "nuestrosProductosIzq acelga nuestrosProductosDer"  "parrafoConclusion parrafoConclusion parrafoConclusion"; } }
+    grid-template: "title title title" 
+ "nuestrosProductosIzq acelga nuestrosProductosDer" 
+ "parrafoConclusion parrafoConclusion parrafoConclusion"; } }
 
 @media only screen and (min-width: 600px) {
   /*Tablet*/
