@@ -32,14 +32,25 @@
     margin-right: $tamanioFuentePrincipal+1;
 }
 
-.titleCarousel a {
-    text-decoration: none;
-    font-size: $tamanioFuentePrincipal*2.65;
-    font-family: 'Dancing Script', cursive;
-    color: black;
-    float: left;
-    width: 40%;
-    text-shadow: rgb(88, 86, 86) 0.2em 0.2em 0.2em; }
+.titleCarousel{
+    display: flex;
+    flex-direction: column;
+
+    img{
+        justify-self: start;
+        width: 8%;
+        margin-left: 150px;
+    }
+
+    p {
+        text-decoration: none;
+        font-size: $tamanioFuentePrincipal*2;
+        font-family: 'Kurale', serif;
+        color: black;
+        float: left;
+        width: 40%;
+        text-shadow: rgb(88, 86, 86) 0.2em 0.2em 0.2em; }
+}
 
 /*Nosotros*/
 .centrar {
