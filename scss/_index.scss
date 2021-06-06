@@ -76,10 +76,63 @@
     margin: 20px;
     width: 50%; }
 
-
-  
 /*Nuestros Productos*/
-.contenedorNuestrosProductos {
+
+.iconNuestrosProductos{
+    font-size: 5.5rem;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    margin-left: 100px;
+    color: #42a432;
+}
+
+.contenedorNuestrosProductos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenedorNuestrosProductos__contenido{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid $verdePrincipal;
+    margin-top: 15px;
+}
+
+.listaNuestrosProductosNot{
+    display: flex;
+    font-size: 2rem;
+    color: red;
+
+    i{
+        padding-right: 5%;
+    }
+}
+
+.listaNuestrosProductos{
+    display: flex;
+    font-size: 2rem;
+    margin-left: 3%;
+    color: green;
+    
+    i{
+        padding-right: 5%;
+    }
+}
+
+.contenedorNuestrosProductos__parrafoConclusion{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 5%;
+}
+
+
+
+
+
+
+/* .contenedorNuestrosProductos {
     margin-top: 100px;
     display: grid;
     align-items: center;
@@ -118,7 +171,7 @@
     font-weight: bold;
     text-align: center;
     font-size: $tamanioFuentePrincipal - 0.2; }
-  
+ */  
 
 /*Contacto*/
 .contactoTitle{
