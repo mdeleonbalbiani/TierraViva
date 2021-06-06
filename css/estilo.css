@@ -325,6 +325,9 @@ p {
 .contacto__contenido--padding {
   padding-top: 4%; }
 
+.contactoBoton, .contactoBoton--seleccioneDepartamento {
+  color: #eee1e1; }
+
 /*Estilo a los placeholders, botones y textos del contacto*/
 ::-webkit-input-placeholder {
   font-size: 1.5rem; }
