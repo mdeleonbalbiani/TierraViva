@@ -246,6 +246,7 @@ nav ul {
     margin-left: 150px; }
   .titleCarousel p {
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 4rem;
     font-family: 'Sriracha', cursive;
     color: black;
@@ -316,50 +317,13 @@ nav ul {
   font-weight: bold;
   margin: 5%; }
 
-/* .contenedorNuestrosProductos {
-    margin-top: 100px;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-template: "title" 
-   "nuestrosProductosIzq" "acelga" "nuestrosProductosDer" 
-   "parrafoConclusion"; }
-  
-
-.contenedorNuestrosProductos__title {
-    width: 100%;
-    border-bottom: 2px solid $verdePrincipal;
-    margin: 20px;
-    grid-area: title; }
-  
-.contenedorNuestrosProductos__Izq {
-    grid-area: nuestrosProductosIzq;
-    text-align: center; }
-  
-
-.contenedorNuestrosProductos__Der {
-        grid-area: nuestrosProductosDer;
-        text-align: center; }
-  
-  
-.contenedorNuestrosProductos__acelga {
-    grid-area: acelga;
-    display: block;
-    width: 50%;
-    margin: auto; }
-  
-  
-.contenedorNuestrosProductos__parrafoConclusion {
-    margin: 20px;
-    grid-area: parrafoConclusion;
-    font-weight: bold;
-    text-align: center;
-    font-size: $tamanioFuentePrincipal - 0.2; }
- */
 /*Contacto*/
-.contactoTitle {
-  border-bottom: 2px solid #006400;
-  margin: 20px; }
+.contacto__contenido {
+  border-top: 2px solid #006400;
+  margin-top: 15px; }
+
+.contacto__contenido--padding {
+  padding-top: 4%; }
 
 /*Estilo a los placeholders, botones y textos del contacto*/
 ::-webkit-input-placeholder {
