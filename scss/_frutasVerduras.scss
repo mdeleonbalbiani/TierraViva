@@ -18,21 +18,22 @@
   
 .categoryShop__title {
     text-align: center;
-    font-size: $tamanioFuentePrincipal+1.5; }
+    font-size: $tamanioFuentePrincipal*3;
+    text-transform: uppercase; }
   
 .categoryShop__menu {
     margin-bottom: 2%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #eee1e1;
     display: flex;
     justify-content: center; 
 
     a {
-        color: white;
+        color: #eee1e1;
         text-decoration: none;
-        padding: 10px 50px;
+        padding: 10px 60px;
         display: block;
         font-size: $tamanioFuentePrincipal;
-        font-family: 'Nova Slim', cursive; 
+        font-family: 'Poppins', sans-serif;
       }
       li {
         list-style: none; 
@@ -65,6 +66,10 @@
     div {
         text-align: center;
         margin: 2%;
+    }
+
+    p{
+        color: #545852;
     }
 }
 

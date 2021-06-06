@@ -11,8 +11,7 @@ body {
   
 /*Mobile - Tablet*/
 header {
-    background-color: #454B35; }
-
+    background-color: #004d00; }
 
 .contenedor {
 background: linear-gradient(to bottom, #1d1d1d3b, rgba(0, 0, 0, 0.541));
@@ -30,7 +29,7 @@ h1 {
     text-transform: uppercase; }
   
 h2 {
-color: #366936;
+color: $verdePrincipal;
 font-size: $tamanioFuentePrincipal+1;
 letter-spacing: 3px;
 font-family: 'Antonio', sans-serif; }
