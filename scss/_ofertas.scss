@@ -15,9 +15,11 @@
     border-radius: 5%;
     margin: 5%;
     align-items: center;
+    box-shadow: 4px 4px 2px rgba(51, 49, 49, 0.712);
 
     img{
-        margin: 8%;
+        margin: 5%;
+        box-shadow: 4px 4px 2px grey;
     }
 }
 
@@ -29,27 +31,28 @@
 
 .textoOfertas__price{
     font-size: $tamanioFuentePrincipal+0.5;
+    color: rgb(88, 87, 87);
     font-weight: bold;
     padding: 10%;
     text-align: center;
 }
 
 .btnOfertaVerDetalle{
-    font-family: 'Nova Slim', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: $tamanioFuentePrincipal*0.75;
     color: $verdePrincipal;
     display: block;
-    border: 1px solid green;
-    background-color: rgb(131, 230, 127);
+    border: 1px solid #007b00;
+    background-color: #6fce5a;
     padding: 5%;
     height: 7vh;
-    color: green;
+    color: #007b00;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 }
 .btnOfertaVerDetalle:hover{
-    background: #1e9700bd;
+    background: #42a432;
     color: #fff !important;
 }
 
