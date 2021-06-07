@@ -68,6 +68,9 @@ p {
   background-color: #c1c1c14d;
   color: #313030; }
 
+.submenu:focus {
+  color: #000; }
+
 .itemMenu ul {
   background-color: #004d00d3;
   font-size: 1.8rem; }
