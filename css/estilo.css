@@ -468,11 +468,12 @@ p {
   align-items: center;
   box-shadow: 4px 4px 2px rgba(51, 49, 49, 0.712); }
   .cardOferta img {
-    margin: 5%;
-    box-shadow: 4px 4px 2px grey; }
+    margin: 2%;
+    box-shadow: 4px 4px 2px grey;
+    margin-left: 20%; }
 
 .textoOfertas__title {
-  margin-top: 8%;
+  margin-top: 3%;
   width: 100%;
   text-align: center; }
 
@@ -480,7 +481,7 @@ p {
   font-size: 2.5rem;
   color: #585757;
   font-weight: bold;
-  padding: 10%;
+  padding: 2%;
   text-align: center; }
 
 .btnOfertaVerDetalle {
@@ -667,7 +668,7 @@ p {
   .third h4::after {
     left: 80% !important; } }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   /*Tablet*/
   h1, .pseudoh1 {
     font-size: 3rem; }
@@ -718,7 +719,7 @@ p {
     margin-right: 0; } }
 
 /*Tablet*/
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   .presentacion__eslogan {
     display: inline-block;
     font-size: 2.3rem;
@@ -755,16 +756,25 @@ p {
 
 /*FIN Paginas de Frutas y Verduras*/
 /*Pagina de Ofertas*/
-@media only screen and (min-width: 600px) {
-  /*Tablet*/
+/*Desktop*/
+@media only screen and (min-width: 769px) {
   .rowOferta {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1rem;
-    column-gap: 2rem; } }
+    column-gap: 2rem; }
+  .cardOferta {
+    margin: 5%; }
+    .cardOferta img {
+      margin: 5%;
+      margin-left: 5%; }
+  .textoOfertas__title {
+    margin-top: 5%; }
+  .textoOfertas__price {
+    padding: 10%; } }
 
-@media only screen and (min-width: 1024px) {
-  /*Desktop*/
+/*Tablet*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   .rowOferta {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

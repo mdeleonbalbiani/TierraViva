@@ -41,7 +41,7 @@
 
 }
 
-@media only screen and (min-width:321px) and (max-width:768px){
+@media only screen and (min-width:480px) and (max-width:768px){
     /*Tablet*/
     h1{
         font-size: $tamanioFuentePrincipal+1;
@@ -115,7 +115,7 @@
 }
 
 /*Tablet*/
-@media only screen and (min-width:321px) and (max-width:768px){
+@media only screen and (min-width:480px) and (max-width:768px){
     .presentacion__eslogan{
         display: inline-block;
         font-size: 2.3rem;
@@ -169,17 +169,33 @@
 /*FIN Paginas de Frutas y Verduras*/
 
 /*Pagina de Ofertas*/
-@media only screen and (min-width: 600px){
-    /*Tablet*/
+
+/*Desktop*/
+@media only screen and (min-width:769px){
     .rowOferta{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 1rem;
         column-gap: 2rem;
     }
+    .cardOferta{
+        margin: 5%;
+        img{
+            margin: 5%;
+            margin-left: 5%;
+        }
+    }
+
+    .textoOfertas__title{
+        margin-top: 5%;
+    }
+    .textoOfertas__price{
+        padding: 10%;
+    }
 }
-@media only screen and (min-width: 1024px){
-    /*Desktop*/
+
+/*Tablet*/
+@media only screen and (min-width:480px) and (max-width:768px){
     .rowOferta{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
