@@ -74,25 +74,8 @@
         width: 8%;
         margin-left: 150px;
     }
-    
 
-}
-
-@media only screen and (min-width:321px) and (max-width:768px){
-    /*Tablet*/
-    .presentacion__eslogan{
-        display: inline-block;
-    }
-}
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 1024px) {
+    /*Nosotros*/
     .centrar {
         border-top: 2px solid $verdePrincipal;
         display: flex;
@@ -115,8 +98,27 @@
     .imagenNosotros {
         margin: 20px;
         width: 20%; 
-    } 
+    }
+    
+
 }
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    /*Tablet*/
+    .presentacion__eslogan{
+        display: inline-block;
+        font-size: 2.3rem;
+        margin-top: -10px; 
+        margin-left: 80px;
+    }
+
+    /*Carousel*/
+    .titleCarousel p{
+        font-size: $tamanioFuentePrincipal
+}
+}
+
+
 
 
 /* @media only screen and (min-width: 1024px) {
