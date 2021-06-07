@@ -58,8 +58,8 @@
 
 /*Index*/
 
+/*Desktop*/
 @media only screen and (min-width:769px) {
-    /*Desktop*/
     .presentacion__eslogan{
         display: inline-block;
     }
@@ -114,8 +114,8 @@
 
 }
 
+/*Tablet*/
 @media only screen and (min-width:321px) and (max-width:768px){
-    /*Tablet*/
     .presentacion__eslogan{
         display: inline-block;
         font-size: 2.3rem;
@@ -126,30 +126,44 @@
     /*Carousel*/
     .titleCarousel p{
         font-size: $tamanioFuentePrincipal
+    }
 }
-}
-
 
 /*FIN Index*/
 
 /*Paginas de Frutas y Verduras*/
-@media only screen and (min-width: 600px){
-    /*Tablet*/
+
+/*Desktop*/
+@media only screen and (min-width:769px){
     .rowShop{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 1rem;
         column-gap: 2rem;
+    }
+
+    .btnAdd{
+        width: 12vw;
+    }
+
+    .productCard{
+        width: 95%;
+        height: 65vh;
     }
 }
-@media only screen and (min-width: 1024px){
-    /*Desktop*/
+
+/*Tablet*/
+@media only screen and (min-width:480px) and (max-width:768px){
     .rowShop{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 1rem;
         column-gap: 2rem;
     }
+
+    .btnAdd{
+        width: 12vw;
+    } 
 }
 
 /*FIN Paginas de Frutas y Verduras*/
