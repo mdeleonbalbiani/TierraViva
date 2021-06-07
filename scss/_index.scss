@@ -96,9 +96,12 @@
 
 .contenedorNuestrosProductos__contenido{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     border-top: 2px solid $verdePrincipal;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .listaNuestrosProductosNot{

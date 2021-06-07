@@ -99,6 +99,17 @@
         margin: 20px;
         width: 20%; 
     }
+
+    /*Nuestros productos*/
+    .contenedorNuestrosProductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorNuestrosProductos__contenido{
+        flex-direction: row;
+        margin-left: 0;
+        margin-right: 0;
+    }
     
 
 }
@@ -119,59 +130,6 @@
 }
 
 
-
-
-/* @media only screen and (min-width: 1024px) {
-    .contenedorNuestrosProductos {
-      margin-top: 100px;
-      display: grid;
-      align-items: center;
-      justify-items: center;
-      grid-template: "title title title" 
-        "nuestrosProductosIzq acelga nuestrosProductosDer" 
-        "parrafoConclusion parrafoConclusion parrafoConclusion"; } }
-
-@media only screen and (min-width: 600px) {
-    /*Tablet*/
-    /* .contenedorNuestrosProductos__Izq {
-        text-align: right; } }
-    
-@media only screen and (min-width: 1024px) {
-     *//*Desktop*/
-   /*  .contenedorNuestrosProductos__Izq {
-        text-align: right; } }
-
-@media only screen and (min-width: 600px) {
-    */ /*Tablet*/
-/*     .contenedorNuestrosProductos__Der {
-        text-align: left; } }
-    
-@media only screen and (min-width: 1024px) {
- */    /*Desktop*/
-/*     .contenedorNuestrosProductos__Der {
-        text-align: left; } }
-
-
-@media only screen and (min-width: 600px) {
- */    /*Tablet*/
-/*     .contenedorNuestrosProductos__acelga {
-        width: 70%; } }
-    
-@media only screen and (min-width: 1024px) {
- */    /*Desktop*/
- /*    .contenedorNuestrosProductos__acelga {
-        width: 90%; } }
-
-@media only screen and (min-width: 600px) { */
-    /*Tablet*//* 
-    .contenedorNuestrosProductos__parrafoConclusion {
-        font-size: $tamanioFuentePrincipal+0.5; } }
-    
-@media only screen and (min-width: 1024px) { */
-    /*Desktop*//* 
-    .contenedorNuestrosProductos__parrafoConclusion {
-        font-size: $tamanioFuentePrincipal+0.8; } } */
-          
 /*FIN Index*/
 
 /*Paginas de Frutas y Verduras*/

@@ -50,7 +50,8 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%; }
 
 /*Menu*/
 .navbar-brand {
@@ -300,9 +301,12 @@ p {
 
 .contenedorNuestrosProductos__contenido {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   border-top: 2px solid #006400;
-  margin-top: 15px; }
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .listaNuestrosProductosNot {
   display: flex;
@@ -701,7 +705,15 @@ p {
     align-items: center; }
   .imagenNosotros {
     margin: 20px;
-    width: 20%; } }
+    width: 20%; }
+  /*Nuestros productos*/
+  .contenedorNuestrosProductos {
+    display: flex;
+    flex-direction: column; }
+  .contenedorNuestrosProductos__contenido {
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 0; } }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   /*Tablet*/
@@ -714,63 +726,6 @@ p {
   .titleCarousel p {
     font-size: 2rem; } }
 
-/* @media only screen and (min-width: 1024px) {
-    .contenedorNuestrosProductos {
-      margin-top: 100px;
-      display: grid;
-      align-items: center;
-      justify-items: center;
-      grid-template: "title title title" 
-        "nuestrosProductosIzq acelga nuestrosProductosDer" 
-        "parrafoConclusion parrafoConclusion parrafoConclusion"; } }
-
-@media only screen and (min-width: 600px) {
-    /*Tablet*/
-/* .contenedorNuestrosProductos__Izq {
-        text-align: right; } }
-    
-@media only screen and (min-width: 1024px) {
-     */
-/*Desktop*/
-/*  .contenedorNuestrosProductos__Izq {
-        text-align: right; } }
-
-@media only screen and (min-width: 600px) {
-    */
-/*Tablet*/
-/*     .contenedorNuestrosProductos__Der {
-        text-align: left; } }
-    
-@media only screen and (min-width: 1024px) {
- */
-/*Desktop*/
-/*     .contenedorNuestrosProductos__Der {
-        text-align: left; } }
-
-
-@media only screen and (min-width: 600px) {
- */
-/*Tablet*/
-/*     .contenedorNuestrosProductos__acelga {
-        width: 70%; } }
-    
-@media only screen and (min-width: 1024px) {
- */
-/*Desktop*/
-/*    .contenedorNuestrosProductos__acelga {
-        width: 90%; } }
-
-@media only screen and (min-width: 600px) { */
-/*Tablet*/
-/* 
-    .contenedorNuestrosProductos__parrafoConclusion {
-        font-size: $tamanioFuentePrincipal+0.5; } }
-    
-@media only screen and (min-width: 1024px) { */
-/*Desktop*/
-/* 
-    .contenedorNuestrosProductos__parrafoConclusion {
-        font-size: $tamanioFuentePrincipal+0.8; } } */
 /*FIN Index*/
 /*Paginas de Frutas y Verduras*/
 @media only screen and (min-width: 600px) {
