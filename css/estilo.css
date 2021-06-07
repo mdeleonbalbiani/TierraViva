@@ -727,7 +727,7 @@ p {
     margin-left: 80px; }
   /*Carousel*/
   .titleCarousel p {
-    font-size: 2rem; } }
+    font-size: 2rem -0.2; } }
 
 /*FIN Index*/
 /*Paginas de Frutas y Verduras*/
