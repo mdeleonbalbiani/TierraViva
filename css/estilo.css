@@ -198,6 +198,14 @@ p {
   transition: 0.2s;
   text-shadow: 1px 1px 20px black; }
 
+.marginSocial {
+  margin-left: 20px; }
+
+.line {
+  height: 2px;
+  background-color: #cecece;
+  width: 100%; }
+
 .footer__madeBy {
   color: #000;
   text-align: right;
@@ -638,7 +646,21 @@ p {
     font-size: 4rem; }
   h2 {
     font-size: 3rem;
-    letter-spacing: 3px; } }
+    letter-spacing: 3px; }
+  /*Header*/
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; }
+  /*Footer*/
+  .first {
+    text-align: center; }
+  .first h4::after {
+    left: 40%; }
+  .third {
+    text-align: center; }
+  .third h4::after {
+    left: 40% !important; } }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   /*Tablet*/
@@ -649,37 +671,6 @@ p {
     letter-spacing: 3px; } }
 
 /*FIN Estructura*/
-/*Header*/
-@media only screen and (min-width: 1024px) {
-  /*Desktop*/
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 1000; } }
-
-/*FIN Header*/
-/*Footer*/
-@media screen and (max-width: 1000px) {
-  .first {
-    text-align: center; }
-  .first h4::after {
-    left: 40%; } }
-
-@media screen and (max-width: 1000px) {
-  .third {
-    text-align: center; }
-  .third h4::after {
-    left: 40% !important; } }
-
-.marginSocial {
-  margin-left: 20px; }
-
-.line {
-  height: 2px;
-  background-color: #cecece;
-  width: 100%; }
-
-/*FIN Footer*/
 /*Index*/
 @media only screen and (min-width: 769px) {
   /*Desktop*/
