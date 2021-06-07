@@ -1,11 +1,14 @@
 /*PAGINAS DESCRIPCION DE CADA OFERTA*/
 
-
 .backOfertas{
     text-decoration: none;
     color: white;
     font-size: $tamanioFuentePrincipal;
-    font-family: 'Nova Slim', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.backOfertas:hover{
+    color: #6fce5a;
 }
 
 .descripcion{

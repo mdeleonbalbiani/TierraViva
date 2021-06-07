@@ -491,7 +491,10 @@ p {
   text-decoration: none;
   color: white;
   font-size: 2rem;
-  font-family: 'Nova Slim', cursive; }
+  font-family: 'Poppins', sans-serif; }
+
+.backOfertas:hover {
+  color: #6fce5a; }
 
 .descripcion {
   margin-top: 3%;
