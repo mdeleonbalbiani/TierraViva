@@ -381,6 +381,8 @@ p {
     display: block;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif; }
+  .categoryShop__menu a:hover {
+    color: #6fce5a; }
   .categoryShop__menu li {
     list-style: none; }
 

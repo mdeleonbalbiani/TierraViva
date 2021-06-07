@@ -39,7 +39,12 @@
         font-size: $tamanioFuentePrincipal;
         font-family: 'Poppins', sans-serif;
       }
-      li {
+
+    a:hover{
+        color: #6fce5a;
+    }
+
+    li {
         list-style: none; 
       }
 }
