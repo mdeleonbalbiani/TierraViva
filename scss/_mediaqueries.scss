@@ -207,38 +207,34 @@
 /*FIN Pagina de Ofertas*/
 
 /*Paginas de detalle de Ofertas*/
-@media only screen and (min-width: 600px){
-    /*Tablet*/
-    .descripcion{
-        margin-top: 2%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-}
-@media only screen and (min-width: 1024px){
-    /*Desktop*/
+
+/*Desktop*/
+@media only screen and (min-width:769px){
     .descripcion{
         margin-top: 3%;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-}
 
-@media only screen and (min-width: 600px){
-    /*Tablet*/
-    .descripcion__contenido{
-        font-size: $tamanioFuentePrincipal;
-    }
-}
-@media only screen and (min-width: 1024px){
-    /*Desktop*/
     .descripcion__contenido{
         font-size: $tamanioFuentePrincipal;
     }
 }
 
+/*Tablet*/
+@media only screen and (min-width:480px) and (max-width:768px){
+    .descripcion{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descripcion__contenido{
+        font-size: $tamanioFuentePrincipal;
+    }
+}
 
 /*FIN Paginas de detalle de Ofertas*/
 

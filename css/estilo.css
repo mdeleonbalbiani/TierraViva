@@ -783,29 +783,23 @@ p {
 
 /*FIN Pagina de Ofertas*/
 /*Paginas de detalle de Ofertas*/
-@media only screen and (min-width: 600px) {
-  /*Tablet*/
-  .descripcion {
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    align-items: center; } }
-
-@media only screen and (min-width: 1024px) {
-  /*Desktop*/
+/*Desktop*/
+@media only screen and (min-width: 769px) {
   .descripcion {
     margin-top: 3%;
     display: flex;
     flex-direction: row;
-    align-items: center; } }
-
-@media only screen and (min-width: 600px) {
-  /*Tablet*/
+    align-items: center; }
   .descripcion__contenido, .descripcion__contenido--below {
     font-size: 2rem; } }
 
-@media only screen and (min-width: 1024px) {
-  /*Desktop*/
+/*Tablet*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .descripcion {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .descripcion__contenido, .descripcion__contenido--below {
     font-size: 2rem; } }
 
