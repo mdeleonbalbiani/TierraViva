@@ -161,10 +161,9 @@ p {
   margin-bottom: 50px;
   color: #cecece;
   font-family: 'Poppins', sans-serif;
-  text-align: right; }
+  text-align: center; }
 
 .third h4 {
-  font-size: 20px;
   letter-spacing: 3px;
   position: relative;
   margin-bottom: 20px;
@@ -179,7 +178,7 @@ p {
   height: 2px;
   position: absolute;
   bottom: 0;
-  left: 80%; }
+  left: 40%; }
 
 .third li {
   list-style: none;
@@ -208,7 +207,7 @@ p {
 
 .footer__madeBy {
   color: #000;
-  text-align: right;
+  text-align: left;
   font-size: 1.2rem;
   font-family: 'Nova Slim', cursive;
   margin-top: -40px; }
@@ -658,9 +657,9 @@ p {
   .first h4::after {
     left: 40%; }
   .third {
-    text-align: center; }
+    text-align: right; }
   .third h4::after {
-    left: 40% !important; } }
+    left: 80% !important; } }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   /*Tablet*/

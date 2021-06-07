@@ -189,12 +189,11 @@ font-size: xx-large; }
     margin-bottom: 50px;
     color: rgb(206,206,206);
     font-family: 'Poppins', sans-serif;
-    text-align: right;
+    text-align: center;
 }
 
 
 .third h4 {
-    font-size: 20px;
     letter-spacing: 3px;
     position: relative;
     margin-bottom: 20px;
@@ -211,7 +210,7 @@ font-size: xx-large; }
     height: 2px;
     position: absolute;
     bottom: 0;
-    left: 80%;
+    left: 40%;
 }
 
 .third li {
@@ -244,9 +243,10 @@ font-size: xx-large; }
     width:100%;
 }
 
+
 .footer__madeBy{
     color: #000;
-    text-align: right;
+    text-align: left;
     font-size: 1.2rem;
     font-family: 'Nova Slim', cursive;
     margin-top: -40px;
