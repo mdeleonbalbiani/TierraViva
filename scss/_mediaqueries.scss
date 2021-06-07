@@ -1,6 +1,33 @@
 
 /*MEDIA QUERIES*/
 
+/*Estructura*/
+@media only screen and (min-width:769px) {
+    /*Desktop*/
+    h1{
+        font-size: $tamanioFuentePrincipal*2;
+    }
+
+    h2{
+        font-size: $tamanioFuentePrincipal+1;
+        letter-spacing: 3px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    /*Tablet*/
+    h1{
+        font-size: $tamanioFuentePrincipal+1;
+    }
+
+    h2{
+        font-size: $tamanioFuentePrincipal+0.5;
+        letter-spacing: 3px;
+    }
+}
+
+/*FIN Estructura*/
+
 /*Header*/
 @media only screen and (min-width: 1024px) {
     /*Desktop*/
@@ -45,6 +72,29 @@
 
 
 /*Index*/
+
+@media only screen and (min-width:769px) {
+    /*Desktop*/
+    .presentacion__eslogan{
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    /*Tablet*/
+    .presentacion__eslogan{
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 1024px) {
     .centrar {
         border-top: 2px solid $verdePrincipal;

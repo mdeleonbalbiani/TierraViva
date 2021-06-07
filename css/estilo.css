@@ -18,7 +18,7 @@ header {
 h1, .pseudoh1 {
   display: inline-block;
   color: #006400;
-  font-size: 4rem;
+  font-size: 2.5rem;
   letter-spacing: 1px;
   font-weight: bold;
   text-align: center;
@@ -27,8 +27,8 @@ h1, .pseudoh1 {
 
 h2 {
   color: #006400;
-  font-size: 3rem;
-  letter-spacing: 3px;
+  font-size: 1rem;
+  letter-spacing: 0;
   font-family: 'Antonio', sans-serif; }
 
 h3 {
@@ -227,6 +227,7 @@ p {
   justify-self: start; }
 
 .presentacion__eslogan {
+  display: none;
   color: #42a432;
   font-family: 'Dancing Script', cursive;
   margin-top: -18px;
@@ -630,6 +631,24 @@ p {
 
 /*FIN Página 404*/
 /*MEDIA QUERIES*/
+/*Estructura*/
+@media only screen and (min-width: 769px) {
+  /*Desktop*/
+  h1, .pseudoh1 {
+    font-size: 4rem; }
+  h2 {
+    font-size: 3rem;
+    letter-spacing: 3px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  /*Tablet*/
+  h1, .pseudoh1 {
+    font-size: 3rem; }
+  h2 {
+    font-size: 2.5rem;
+    letter-spacing: 3px; } }
+
+/*FIN Estructura*/
 /*Header*/
 @media only screen and (min-width: 1024px) {
   /*Desktop*/
@@ -662,6 +681,16 @@ p {
 
 /*FIN Footer*/
 /*Index*/
+@media only screen and (min-width: 769px) {
+  /*Desktop*/
+  .presentacion__eslogan {
+    display: inline-block; } }
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  /*Tablet*/
+  .presentacion__eslogan {
+    display: inline-block; } }
+
 @media only screen and (min-width: 1024px) {
   .centrar {
     border-top: 2px solid #006400;
