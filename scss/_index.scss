@@ -40,13 +40,13 @@
     img{
         justify-self: start;
         width: 8%;
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     p {
         text-decoration: none;
         text-transform: uppercase;
-        font-size: $tamanioFuentePrincipal*2;
+        font-size: $tamanioFuentePrincipal/2;
         font-family: 'Sriracha', cursive;
         color: black;
         float: left;

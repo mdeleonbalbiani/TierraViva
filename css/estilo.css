@@ -251,11 +251,11 @@ p {
   .titleCarousel img {
     justify-self: start;
     width: 8%;
-    margin-left: 150px; }
+    margin-left: 50px; }
   .titleCarousel p {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 1rem;
     font-family: 'Sriracha', cursive;
     color: black;
     float: left;
@@ -674,7 +674,14 @@ p {
 @media only screen and (min-width: 769px) {
   /*Desktop*/
   .presentacion__eslogan {
-    display: inline-block; } }
+    display: inline-block; }
+  /*Carousel*/
+  .titleCarousel p {
+    font-size: 4rem; }
+  .titleCarousel img {
+    justify-self: start;
+    width: 8%;
+    margin-left: 150px; } }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   /*Tablet*/
