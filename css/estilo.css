@@ -61,7 +61,7 @@ p {
   font-family: 'Poppins', sans-serif; }
 
 .itemMenu a {
-  color: white;
+  color: #eee1e1;
   font-size: 1.8rem; }
 
 .itemMenu a:hover {
@@ -113,14 +113,14 @@ p {
 .second {
   margin-top: 40px;
   margin-bottom: 50px;
-  color: #cecece;
+  color: #eee1e1;
   font-family: 'Poppins', sans-serif;
   text-align: center; }
 
 .second2 {
   margin-top: 40px;
   margin-bottom: 50px;
-  color: #cecece;
+  color: #eee1e1;
   font-family: 'Poppins', sans-serif;
   text-align: center; }
 
@@ -130,7 +130,7 @@ p {
   position: relative;
   margin-bottom: 20px;
   font-size: 1.6em;
-  color: #fff;
+  color: #eee1e1;
   padding-bottom: 0.5em; }
 
 .second h4::after {
@@ -147,7 +147,7 @@ p {
   padding-bottom: 30px; }
 
 .second a, .second2 a {
-  color: #cecece;
+  color: #eee1e1;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -155,7 +155,7 @@ p {
   transition: 0.2s; }
 
 .second a:hover, .second2 a:hover {
-  color: #fff;
+  color: #eee1e1;
   transition: 0.2s;
   text-shadow: 1px 1px 20px black;
   text-decoration: none; }
@@ -163,7 +163,7 @@ p {
 .third {
   margin-top: 40px;
   margin-bottom: 50px;
-  color: #cecece;
+  color: #eee1e1;
   font-family: 'Poppins', sans-serif;
   text-align: center; }
 
@@ -172,7 +172,7 @@ p {
   position: relative;
   margin-bottom: 20px;
   font-size: 1.6em;
-  color: #fff;
+  color: #eee1e1;
   padding-bottom: 0.5em; }
 
 .third h4::after {
@@ -189,7 +189,7 @@ p {
   padding-bottom: 15px; }
 
 .third a {
-  color: #cecece;
+  color: #eee1e1;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -197,7 +197,7 @@ p {
   transition: 0.2s; }
 
 .third a:hover {
-  color: #fff;
+  color: #eee1e1;
   transition: 0.2s;
   text-shadow: 1px 1px 20px black; }
 
@@ -206,7 +206,7 @@ p {
 
 .line {
   height: 2px;
-  background-color: #cecece;
+  background-color: #eee1e1;
   width: 100%; }
 
 .footer__madeBy {
@@ -373,9 +373,9 @@ p {
   justify-content: center; }
 
 .presentacionShop__h1 {
-  color: white;
+  color: #eee1e1;
   padding: 2%;
-  border: 3px solid white;
+  border: 3px solid #eee1e1;
   text-shadow: 5px 2px 2px #004d00;
   box-shadow: 5px 2px 2px #004d00; }
 
@@ -410,7 +410,7 @@ p {
 .productCard {
   width: 80%;
   height: 45vh;
-  background: linear-gradient(145deg, #ffffff, #c4c6c9);
+  background: linear-gradient(145deg, #eee1e1, #c4c6c9);
   border-radius: 10%;
   box-shadow: 2px 2px 10px #d1d2d3, -2px -2px 10px #ffffff;
   display: flex;
@@ -446,7 +446,7 @@ p {
 
 .btnAdd:hover {
   background: #007b00;
-  color: #fff !important; }
+  color: #eee1e1 !important; }
 
 .scale {
   -webkit-transition: .5s linear;
@@ -503,13 +503,13 @@ p {
 
 .btnOfertaVerDetalle:hover {
   background: #42a432;
-  color: #fff !important; }
+  color: #eee1e1 !important; }
 
 /*FIN OFERTAS*/
 /*PAGINAS DESCRIPCION DE CADA OFERTA*/
 .backOfertas {
   text-decoration: none;
-  color: white;
+  color: #eee1e1;
   font-size: 2rem;
   font-family: 'Poppins', sans-serif; }
 
@@ -555,8 +555,8 @@ p {
 .priceDetallado {
   text-align: center;
   font-size: 3.5rem;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #eee1e1;
+  color: #eee1e1;
   padding: 2%;
   margin: 2%; }
 

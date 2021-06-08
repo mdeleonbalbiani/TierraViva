@@ -20,7 +20,7 @@
 
 .presentacion__eslogan{
     display: none;
-    color: #42a432;
+    color: $verdeTerciario;
     font-family: 'Dancing Script', cursive;
     margin-top: -18px; 
     margin-left: 150px;
@@ -85,7 +85,7 @@
     margin-top: 8%;
     margin-bottom: 5%;
     margin-left: 100px;
-    color: #42a432;
+    color: $verdeTerciario;
 }
 
 .contenedorNuestrosProductos{
@@ -144,7 +144,7 @@
 }
 
 .contactoBoton{
-    color: #eee1e1;
+    color: $blanco;
 }
 
 /*Estilo a los placeholders, botones y textos del contacto*/

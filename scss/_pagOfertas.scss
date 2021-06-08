@@ -2,13 +2,13 @@
 
 .backOfertas{
     text-decoration: none;
-    color: white;
+    color: $blanco;
     font-size: $tamanioFuentePrincipal;
     font-family: 'Poppins', sans-serif;
 }
 
 .backOfertas:hover{
-    color: #6fce5a;
+    color: $verdeHover;
 }
 
 .descripcion{
@@ -60,8 +60,8 @@
 .priceDetallado{
     text-align: center;
     font-size: $tamanioFuentePrincipal+1.5;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid $blanco;
+    color: $blanco;
     padding: 2%;
     margin: 2%;
 }
@@ -78,7 +78,7 @@
 	cursor: pointer;
 }
 .btnAnimationDetallado {
-	color: #004d00;
+	color: $verdeSecundario;
     font-weight: bold;
 	transition: all 0.5s;
 	position: relative;

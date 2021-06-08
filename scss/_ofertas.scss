@@ -43,18 +43,18 @@
     font-size: $tamanioFuentePrincipal*0.75;
     color: $verdePrincipal;
     display: block;
-    border: 1px solid #007b00;
-    background-color: #6fce5a;
+    border: 1px solid $verdeCuarto;
+    background-color: $verdeHover;
     padding: 5%;
     height: 7vh;
-    color: #007b00;
+    color: $verdeCuarto;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 }
 .btnOfertaVerDetalle:hover{
-    background: #42a432;
-    color: #fff !important;
+    background: $verdeTerciario;
+    color: $blanco !important;
 }
 
 /*FIN OFERTAS*/

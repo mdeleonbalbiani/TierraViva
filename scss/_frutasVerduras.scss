@@ -13,11 +13,11 @@
     }
   
 .presentacionShop__h1 {
-    color: white;
+    color: $blanco;
     padding: 2%;
-    border: 3px solid white;
-    text-shadow: 5px 2px 2px #004d00;
-    box-shadow: 5px 2px 2px #004d00}
+    border: 3px solid $blanco;
+    text-shadow: 5px 2px 2px $verdeSecundario;
+    box-shadow: 5px 2px 2px $verdeSecundario}
   
 .categoryShop__title {
     text-align: center;
@@ -27,12 +27,12 @@
   
 .categoryShop__menu {
     margin-bottom: 2%;
-    border-bottom: 1px solid #eee1e1;
+    border-bottom: 1px solid $blanco;
     display: flex;
     justify-content: center; 
 
     a {
-        color: #eee1e1;
+        color: $blanco;
         text-decoration: none;
         padding: 10px 60px;
         display: block;
@@ -41,7 +41,7 @@
       }
 
     a:hover{
-        color: #6fce5a;
+        color: $verdeHover
     }
 
     li {
@@ -62,7 +62,7 @@
 .productCard {
     width: 80%;
     height: 45vh;
-    background: linear-gradient(145deg, #ffffff, #c4c6c9);
+    background: linear-gradient(145deg, $blanco, #c4c6c9);
     border-radius: 10%;
     box-shadow: 2px 2px 10px #d1d2d3, -2px -2px 10px #ffffff;
     display: flex;
@@ -107,8 +107,8 @@
 }
   
 .btnAdd:hover {
-    background: #007b00;
-    color: #fff !important; }
+    background: $verdeCuarto;
+    color: $blanco !important; }
   
 .scale {
     -webkit-transition: .5s linear;
