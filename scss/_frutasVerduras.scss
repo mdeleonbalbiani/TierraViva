@@ -61,8 +61,8 @@
 
   
 .productCard {
-    width: 80%;
-    height: 45vh;
+    width: 65%;
+    height: 55vh;
     background: linear-gradient(145deg, $blanco, #c4c6c9);
     border-radius: 10%;
     box-shadow: 2px 2px 10px #d1d2d3, -2px -2px 10px #ffffff;
@@ -82,9 +82,9 @@
         color: #545852;
     }
 
-    img{
+    /* img{
         width: 70%;
-    }
+    } */
 }
 
 .productoCantidad{
