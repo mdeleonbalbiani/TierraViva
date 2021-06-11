@@ -52,9 +52,10 @@
   
 .rowShop {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     row-gap: 1rem;
     column-gap: 0.5rem; 
+    justify-items: center;
 }
     
 

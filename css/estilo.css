@@ -380,9 +380,10 @@ p {
 
 .rowShop {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   row-gap: 1rem;
-  column-gap: 0.5rem; }
+  column-gap: 0.5rem;
+  justify-items: center; }
 
 .productCard {
   width: 80%;
@@ -723,11 +724,11 @@ p {
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .rowShop {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 1rem;
-    column-gap: 2rem; }
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0.5rem;
+    column-gap: 0.5rem; }
   .btnAdd {
-    width: 12vw; } }
+    width: 18vw; } }
 
 /*FIN Paginas de Frutas y Verduras*/
 /*Pagina de Ofertas*/
