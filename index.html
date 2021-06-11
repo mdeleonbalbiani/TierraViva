@@ -28,7 +28,13 @@
         <nav class="navbar navbar-expand-lg navbar-primary" style="background-color:#004d00;" >
             <div class="container-fluid">
               <a class="navbar-brand" href="#home">
-                  <img src="multimedia/logo2.png" alt="logo corporativo" width="70%">
+                  <picture>
+                    <source media="(max-width:478px)"
+                            srcset="multimedia/logo-mobile.png">
+                    <source media="(min-width:769px)"
+                            srcset="multimedia/logo1.png">
+                    <img src="multimedia/logo1.png" alt="Logo corporativo">
+                  </picture>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list btnHamburguesa"></i>
@@ -62,7 +68,12 @@
     </header>
 
     <section class="presentacion container"  id="home">
-        <img src="multimedia/rama2.png" alt="rama" class="presentacion__hoja">
+        <picture  class="presentacion__hoja">
+            <source media="(max-width:478px)"
+                    srcset="multimedia/rama-mobile.png">
+            <source srcset="multimedia/rama.png">
+            <img src="multimedia/rama.png" alt="IconoRama">
+        </picture>
         <h1 class="presentacion__tituloPrincipal">Frutas y verduras orgánicas de estación</h1>
         <h2 class="presentacion__eslogan">Calidad asegurada</h2>
     </section>
@@ -139,12 +150,26 @@
         <!--Seccion Nosotros-->
         <section id="nosotros">
             <div  class="iconosTitulos">
-                <img src="multimedia/siembra4.png" alt="iconNosotros" class="iconosTitulos__iconos">
+                <picture class="iconosTitulos__iconos">
+                    <source media="(max-width:478px)"
+                            srcset="multimedia/siembra3-mobile.png">
+                    <source media="(min-width:769px)"
+                            srcset="multimedia/siembra3.png">
+                    <img src="multimedia/siembra3.png" alt="IconoNosotros">
+                </picture>
                 <h2 class="pseudoh1">Sobre nosotros y nuestra historia</h2>
             </div>
             <div class="centrar">
                 <div class="centrar__nosotrosIzq">
-                    <img src="multimedia/riego.jpg" alt="Riego" class="imagenNosotros">
+                    <picture class="imagenNosotros">
+                        <source media="(max-width:478px)"
+                                srcset="multimedia/riego-mobile.jpg">
+                        <source media="(min-width:769px)"
+                                srcset="multimedia/riego.jpg">
+                        <source media="(max-width:768px)"
+                                srcset="multimedia/riego-tablet.jpg">
+                        <img src="multimedia/riego.jpg" alt="Riego">
+                    </picture>
                     <p>
                         Somos es una empresa dedicada a la comercialización y producción de frutas y verduras de primera calidad, tanto a granel como envasados.
                         <br>
@@ -157,7 +182,15 @@
                             <br>
                             Tierra Viva es el resultado de mucho trabajo y hemos crecido en todo este tiempo dando el mejor servicio a todos nuestros clientes, cubriendo sus necesidades en cuanto a gama de productos y precio.
                     </p>
-                    <img src="multimedia/plantacion.jpg" alt="Plantacion" class="imagenNosotros">
+                    <picture class="imagenNosotros">
+                        <source media="(max-width:478px)"
+                                srcset="multimedia/plantacion-mobile.jpg">
+                        <source media="(min-width:769px)"
+                                srcset="multimedia/plantacion.jpg">
+                        <source media="(max-width:768px)"
+                                srcset="multimedia/plantacion-tablet.jpg">
+                        <img src="multimedia/plantacion.jpg" alt="Plantacion">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -165,7 +198,13 @@
         <!--Seccion Nuestros productos-->
         <section id="nuestrosProductos" class="contenedorNuestrosProductos">
             <div  class="iconosTitulos">
-                <img src="multimedia/siembra3.png" alt="iconNuestrosProductos" class="iconosTitulos__iconos">
+                <picture class="iconosTitulos__iconos">
+                    <source media="(max-width:478px)"
+                            srcset="multimedia/siembra4-mobile.png">
+                    <source media="(min-width:769px)"
+                            srcset="multimedia/siembra4.png">
+                    <img src="multimedia/siembra4.png" alt="IconoNuestrosProductos">
+                </picture>
                 <h2 class="pseudoh1">Conozca los beneficios de nuestros productos</h2>
             </div>
             <div class="contenedorNuestrosProductos__contenido">
@@ -221,7 +260,13 @@
         <!--Formulario de contacto-->
             <section id="contacto">
                 <div  class="iconosTitulos">
-                    <img src="multimedia/correo.png" alt="iconCorreo" class="iconosTitulos__iconos">
+                    <picture class="iconosTitulos__iconos">
+                        <source media="(max-width:478px)"
+                                srcset="multimedia/correo-mobile.png">
+                        <source media="(min-width:769px)"
+                                srcset="multimedia/correo.png">
+                        <img src="multimedia/correo.png" alt="IconoContacto">
+                    </picture>
                     <h2 class="pseudoh1">Contacto</h2>
                 </div>
                 <div class="contacto__contenido row">
@@ -258,7 +303,7 @@
             <div class="row">
                 <div class="col-md-4 col-xs-12">
                     <div class="first">
-                        <img src="multimedia/logo2.png" alt="">
+                        <img src="multimedia/logo2.png" alt="Logo corporativo">
                     </div>
                 </div>
 

@@ -85,30 +85,7 @@ p {
 
 .first {
   margin-top: 40px;
-  margin-bottom: 20px;
-  color: #cecece;
-  font-family: 'Poppins', sans-serif; }
-
-.first h4 {
-  font-size: 20px;
-  letter-spacing: 3px;
-  position: relative;
-  margin-bottom: 20px;
-  font-size: 1.6em;
-  color: #fff;
-  padding-bottom: 0.5em; }
-
-.first h4::after {
-  content: '';
-  background: #66c83d;
-  width: 20%;
-  height: 2px;
-  position: absolute;
-  bottom: 0;
-  left: 0; }
-
-.first p {
-  font-size: 14px; }
+  margin-bottom: 20px; }
 
 .second {
   margin-top: 40px;
@@ -230,8 +207,8 @@ p {
   grid-template: "hoja tituloPrincipal" "hoja eslogan"; }
 
 .presentacion__hoja {
-  grid-area: hoja;
-  justify-self: end; }
+  justify-self: end;
+  grid-area: hoja; }
 
 .presentacion__tituloPrincipal {
   grid-area: tituloPrincipal;
@@ -241,8 +218,9 @@ p {
   display: none;
   color: #42a432;
   font-family: 'Dancing Script', cursive;
-  margin-top: -18px;
-  margin-left: 150px;
+  justify-self: center;
+  margin-top: -2%;
+  margin-right: 20%;
   grid-area: eslogan; }
 
 /*Carousel*/
@@ -287,8 +265,7 @@ p {
   align-items: center; }
 
 .imagenNosotros {
-  margin: 20px;
-  width: 50%; }
+  margin: 20px; }
 
 /*Nuestros Productos*/
 .iconNuestrosProductos {
@@ -664,8 +641,6 @@ p {
   /*Footer*/
   .first {
     text-align: center; }
-  .first h4::after {
-    left: 40%; }
   .third {
     text-align: right; }
   .third h4::after {
@@ -710,8 +685,7 @@ p {
     width: 80%;
     align-items: center; }
   .imagenNosotros {
-    margin: 20px;
-    width: 20%; }
+    margin: 20px; }
   /*Nuestros productos*/
   .contenedorNuestrosProductos {
     display: flex;
@@ -725,9 +699,7 @@ p {
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .presentacion__eslogan {
     display: inline-block;
-    font-size: 2.3rem;
-    margin-top: -10px;
-    margin-left: 80px; }
+    font-size: 2.3rem; }
   /*Carousel*/
   .titleCarousel p {
     font-size: 2rem -0.2; } }

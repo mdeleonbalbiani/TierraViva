@@ -9,8 +9,8 @@
 }
 
 .presentacion__hoja{
-    grid-area: hoja;
     justify-self: end;
+    grid-area: hoja;
 }
 
 .presentacion__tituloPrincipal{
@@ -22,8 +22,9 @@
     display: none;
     color: $verdeTerciario;
     font-family: 'Dancing Script', cursive;
-    margin-top: -18px; 
-    margin-left: 150px;
+    justify-self: center;
+    margin-top: -2%; 
+    margin-right: 20%;
     grid-area: eslogan;
 }
 
@@ -75,8 +76,7 @@
     align-items: center; }
 
 .imagenNosotros {
-    margin: 20px;
-    width: 50%; }
+    margin: 20px; }
 
 /*Nuestros Productos*/
 

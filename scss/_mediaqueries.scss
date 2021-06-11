@@ -25,10 +25,6 @@
         text-align: center;
     }
 
-    .first h4::after {
-        left: 40%;
-     }
-
     .third {
         text-align: right;
     }
@@ -93,8 +89,7 @@
         align-items: center; 
     }
     .imagenNosotros {
-        margin: 20px;
-        width: 20%; 
+        margin: 20px; 
     }
 
     /*Nuestros productos*/
@@ -116,8 +111,6 @@
     .presentacion__eslogan{
         display: inline-block;
         font-size: 2.3rem;
-        margin-top: -10px; 
-        margin-left: 80px;
     }
 
     /*Carousel*/
