@@ -76,14 +76,14 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .itemMenu a {
 color: $blanco;
-font-size: $tamanioFuentePrincipal*0.9; 
+font-size: $tamanioFuentePrincipal*0.8; 
 font-family: 'Poppins', sans-serif;
-font-weight: 500;
+font-weight: bold;
 }
 
 .itemMenu a:hover {
 background-color: #c1c1c14d;
-color: #313030; }
+color: #000; }
 
 .submenu:focus{
     color: #000;
@@ -101,7 +101,7 @@ font-size: $tamanioFuentePrincipal*0.9;
 }
 
 .cart:hover{
-    color: #c1c1c14d;
+    color: #000;
 }
 /*Footer*/
 

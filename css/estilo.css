@@ -59,13 +59,13 @@ p {
 
 .itemMenu a {
   color: #eee1e1;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500; }
+  font-weight: bold; }
 
 .itemMenu a:hover {
   background-color: #c1c1c14d;
-  color: #313030; }
+  color: #000; }
 
 .submenu:focus {
   color: #000; }
@@ -80,7 +80,7 @@ p {
   color: #eee1e1; }
 
 .cart:hover {
-  color: #c1c1c14d; }
+  color: #000; }
 
 /*Footer*/
 .footer {
