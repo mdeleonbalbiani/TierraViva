@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
     <!--  Linkeo de pagina de estilos -->    
     <link rel="stylesheet" href="../css/estilo.css">
-    <title>Tierra Viva - Vitamina C</title>
+    <title>Tierra Viva - La Tomatina</title>
 </head>
 <body>
     <header>
@@ -75,7 +75,15 @@
         </section>
 
         <section class="descripcion">
-            <img src="../multimedia/tomatina.jpg" alt="tomatina" class="imgOferta">
+            <picture class="descripcion__imgOferta">
+                <source media="(max-width:478px)"
+                        srcset="../multimedia/ofertas/tomatina-mobile.jpg">
+                <source media="(min-width:769px)"
+                        srcset="../multimedia/ofertas/tomatina.jpg">
+                <source media="(max-width:768px)"
+                        srcset="../multimedia/ofertas/tomatina-tablet.jpg">
+                <img src="../multimedia/ofertas/tomatina.jpg" alt="Tomatina">
+            </picture>
             <div>
                 <p class="descripcion__contenido">"La Tomatina" contiente las mejor variedad de tomates, desde cherries, peritas y americanos hasta tomates kumato</p>
                 <p class="descripcion__contenido--below">Mirá todo lo que contiene acá abajo</p>
@@ -87,31 +95,79 @@
 
             <div class="centrarProductos_detalladoProductos wow animate__animated animate__backInRight">
                 <p>2 kilogramos de tomates americanos</p>
-                <img src="../multimedia/americano.jpg" alt="tomate americano">
+                <picture>
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/ofertas/americano-mobile.jpg">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/ofertas/americano.jpg">
+                    <source media="(max-width:768px)"
+                            srcset="../multimedia/ofertas/americano-tablet.jpg">
+                    <img src="../multimedia/ofertas/americano.jpg" alt="Tomate Americano">
+                </picture>
             </div>
 
             <div class="centrarProductos_detalladoProductos wow animate__animated animate__backInLeft">
-                <img src="../multimedia/cherry.png" alt="cherry">
+                <picture>
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/ofertas/cherry-mobile.png">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/ofertas/cherry.png">
+                    <source media="(max-width:768px)"
+                            srcset="../multimedia/ofertas/cherry-tablet.png">
+                    <img src="../multimedia/ofertas/cherry.png" alt="Tomate cherry">
+                </picture>
                 <p>250 gramos de tomates cherries</p>
             </div>
 
             <div class="centrarProductos_detalladoProductos wow animate__animated animate__backInRight">
                 <p>1 kilogramo de tomates peritas</p>
-                <img src="../multimedia/perita.jpg" alt="perita">
+                <picture>
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/ofertas/perita-mobile.jpg">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/ofertas/perita.png">
+                    <source media="(max-width:768px)"
+                            srcset="../multimedia/ofertas/perita-tablet.jpg">
+                    <img src="../multimedia/ofertas/perita.png" alt="Tomate perita">
+                </picture>
             </div>
 
             <div class="centrarProductos_detalladoProductos wow animate__animated animate__backInLeft">
-                <img src="../multimedia/tomateamarrillo.jpg" alt="tomate amarrillo">
+                <picture>
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/ofertas/tomateamarillo-mobile.jpg">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/ofertas/tomateamarillo.png">
+                    <source media="(max-width:768px)"
+                            srcset="../multimedia/ofertas/tomateamarillo-tablet.jpg">
+                    <img src="../multimedia/ofertas/tomateamarillo.png" alt="Naranjas">
+                </picture>
                 <p>1/2 kilogramo de tomates amarillos <br> *Este producto es exclusivo para la promoción </p>
             </div>
 
             <div class="centrarProductos_detalladoProductos wow animate__animated animate__backInRight">
                 <p>250 gramos de tomates cherries negros <br> *Este producto es exclusivo para la promoción  </p>
-                <img src="../multimedia/cherrienegro.jpg" alt="cherry negro">
+                <picture>
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/ofertas/cherrynegro-mobile.jpg">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/ofertas/cherrynegro.png">
+                    <source media="(max-width:768px)"
+                            srcset="../multimedia/ofertas/cherrynegro-tablet.jpg">
+                    <img src="../multimedia/ofertas/cherrynegro.png" alt="Cherry negro">
+                </picture>
             </div>
            
             <div class="centrarProductos_detalladoProductos wow animate__animated animate__backInLeft">
-                <img src="../multimedia/kumato.jpg" alt="kumato">
+                <picture>
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/ofertas/kumato-mobile.jpg">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/ofertas/kumato.png">
+                    <source media="(max-width:768px)"
+                            srcset="../multimedia/ofertas/kumato-tablet.jpg">
+                    <img src="../multimedia/ofertas/kumato.png" alt="Kumato">
+                </picture>
                 <p>1 kilogramo de tomates kumato <br> *Este producto es exclusivo para la promoción</p>
             </div>
 
