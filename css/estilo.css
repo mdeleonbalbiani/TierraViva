@@ -450,9 +450,11 @@ p {
   align-items: center;
   box-shadow: 4px 4px 2px rgba(51, 49, 49, 0.712); }
   .cardOferta img {
+    display: block;
     margin: 2%;
     box-shadow: 4px 4px 2px grey;
-    margin-left: 20%; }
+    margin-left: auto;
+    margin-right: auto; }
 
 .textoOfertas__title {
   margin-top: 3%;
