@@ -54,18 +54,14 @@ p {
   width: 100%; }
 
 /*Menu*/
-.alineacion {
-  align-items: baseline; }
-
 .navbar-brand {
   margin-left: 10%; }
 
-.nav ul {
-  font-family: 'Poppins', sans-serif; }
-
 .itemMenu a {
   color: #eee1e1;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; }
 
 .itemMenu a:hover {
   background-color: #c1c1c14d;
@@ -79,7 +75,8 @@ p {
   font-size: 1.8rem; }
 
 .btnHamburguesa {
-  font-size: xx-large; }
+  font-size: xx-large;
+  color: #000; }
 
 .cart {
   font-size: 2rem;
@@ -87,7 +84,7 @@ p {
   color: #eee1e1; }
 
 .cart:hover {
-  color: #313030; }
+  color: #c1c1c14d; }
 
 /*Footer*/
 .footer {
@@ -515,7 +512,9 @@ p {
   align-items: center; }
 
 .descripcion__imgOferta {
-  width: 80%; }
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .descripcion__contenido, .descripcion__contenido--below {
   font-size: 2rem;

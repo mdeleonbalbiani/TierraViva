@@ -5,8 +5,8 @@ $verdeFooter: #66c83d;
 $verdeTerciario: #42a432;
 $verdeCuarto: #007b00;
 $verdeHover: #6fce5a;
-$tamanioFuentePrincipal: 2rem ;
 $blanco: #eee1e1;
+$tamanioFuentePrincipal: 2rem ;
 
 
 html{
@@ -70,20 +70,15 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*Menu*/
-.alineacion{
-    align-items: baseline;
-}
 
 .navbar-brand {
     margin-left: 10%; }
-    
-.nav ul {
-    font-family: 'Poppins', sans-serif;
-}
 
 .itemMenu a {
 color: $blanco;
 font-size: $tamanioFuentePrincipal*0.9; 
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
 }
 
 .itemMenu a:hover {
@@ -100,7 +95,8 @@ font-size: $tamanioFuentePrincipal*0.9;
 }
 
 .btnHamburguesa {
-font-size: xx-large; }
+font-size: xx-large;
+color: #000; }
 
 .cart{
     font-size: 2rem;
@@ -109,7 +105,7 @@ font-size: xx-large; }
 }
 
 .cart:hover{
-    color: #313030;
+    color: #c1c1c14d;
 }
 /*Footer*/
 
