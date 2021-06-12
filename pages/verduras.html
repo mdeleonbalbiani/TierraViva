@@ -69,7 +69,13 @@
 
         <section class="categoryShop">
             <div  class="iconosTitulos">
-                <img src="../multimedia/vegetal1.png" alt="iconVerduras" class="iconosTitulos__iconos">
+                <picture class="iconosTitulos__iconos">
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/vegetal1-mobile.png">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/vegetal1.png">
+                    <img src="../multimedia/vegetal1.png" alt="Icono Verduras">
+                </picture>
                 <h2 class="categoryShop__title">Verduras</h2>
             </div>
             <ul class="categoryShop__menu">

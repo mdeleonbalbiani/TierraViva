@@ -68,7 +68,13 @@
 
         <section class="categoryShop">
             <div  class="iconosTitulos">
-                <img src="../multimedia/grocery1.png" alt="iconOfertas" class="iconosTitulos__iconos">
+                <picture class="iconosTitulos__iconos">
+                    <source media="(max-width:478px)"
+                            srcset="../multimedia/grocery1-mobile.png">
+                    <source media="(min-width:769px)"
+                            srcset="../multimedia/grocery1.png">
+                    <img src="../multimedia/grocery1.png" alt="Icono Oferta">
+                </picture>
                 <h2 class="categoryShop__title">Ofertas</h2>
             </div>
             <ul class="categoryShop__menu">
