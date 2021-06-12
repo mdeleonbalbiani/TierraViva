@@ -54,6 +54,9 @@ p {
   width: 100%; }
 
 /*Menu*/
+.alineacion {
+  align-items: baseline; }
+
 .navbar-brand {
   margin-left: 10%; }
 
@@ -77,6 +80,14 @@ p {
 
 .btnHamburguesa {
   font-size: xx-large; }
+
+.cart {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #eee1e1; }
+
+.cart:hover {
+  color: #313030; }
 
 /*Footer*/
 .footer {
