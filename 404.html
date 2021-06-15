@@ -29,7 +29,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-primary" style="background-color:#004d00;" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#home">
+          <a class="navbar-brand" href="index.html#home">
             <picture>
                 <source media="(max-width:478px)"
                         srcset="multimedia/logo-mobile.png">
@@ -44,13 +44,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item itemMenu">
-                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" aria-current="page" href="index.html#home">Home</a>
                 </li>
                 <li class="nav-item itemMenu">
-                  <a class="nav-link" href="#nosotros">Nosotros</a>
+                  <a class="nav-link" href="index.html#nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item itemMenu">
-                  <a class="nav-link" href="#nuestrosProductos">Nuestros productos</a>
+                  <a class="nav-link" href="index.html#nuestrosProductos">Nuestros productos</a>
                 </li>
                 <li class="nav-item dropdown itemMenu">
                   <a class="nav-link dropdown-toggle submenu" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -72,7 +72,13 @@
     </header>
 
     <main class="mainPage404 container">
-      <img src="multimedia/404image.jpg" alt="404 page not found">
+      <picture>
+        <source media="(max-width:478px)"
+                srcset="multimedia/404image-mobile.jpg">
+        <source media="(min-width:769px)"
+                srcset="multimedia/404image.jpg">
+        <img src="multimedia/404image.jpg" alt="404 page not found">
+      </picture>
       <div>
         <p>Pero no te preocupes, puedes</p>
         <a href="index.html" class="boton404">Volver al Home</a>

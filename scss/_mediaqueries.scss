@@ -234,5 +234,17 @@
 
 /*FIN Paginas de detalle de Ofertas*/
 
+/*Page 404*/
 
+/*FIN Page 404*/
+@media only screen and (min-width:769px){
+    .mainPage404{
+        flex-direction: row;
+        picture{
+            display: inline-block;
+            margin-left: 5%;
+            margin-right: 0;
+        }
+    }
+}
 /*FIN MEDIA QUERIES*/

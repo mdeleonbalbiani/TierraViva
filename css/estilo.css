@@ -608,7 +608,8 @@ p {
   background-color: white; }
 
 .mainPage404 {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   .mainPage404 div {
     display: flex;
     flex-direction: column;
@@ -618,6 +619,10 @@ p {
       color: #000;
       font-size: 3rem;
       font-weight: bold; }
+  .mainPage404 picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 .boton404 {
   text-align: center;
@@ -794,4 +799,14 @@ p {
     font-size: 2rem; } }
 
 /*FIN Paginas de detalle de Ofertas*/
+/*Page 404*/
+/*FIN Page 404*/
+@media only screen and (min-width: 769px) {
+  .mainPage404 {
+    flex-direction: row; }
+    .mainPage404 picture {
+      display: inline-block;
+      margin-left: 5%;
+      margin-right: 0; } }
+
 /*FIN MEDIA QUERIES*/
